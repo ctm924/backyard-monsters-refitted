@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Backyard Monsters Refitted Client" package="com.bymrefitted." version="0.0.1" company="BYM Refitted" />
+	<app main="Main" path="Export" file="" />
+	
+	<source path="src" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>
