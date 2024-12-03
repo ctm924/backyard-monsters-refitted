@@ -35,7 +35,7 @@ package com.smartfoxserver.v2.core
       
       public function SFSIOHandler(param1:BitSwarmClient)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.bitSwarm = param1;
          this.log = Logger.getInstance();
          this.readState = PacketReadState.WAIT_NEW_PACKET;

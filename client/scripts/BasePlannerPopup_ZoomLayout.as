@@ -17,7 +17,7 @@ package
       
       public function BasePlannerPopup_ZoomLayout()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -67,7 +67,7 @@ package
       
       public function BUILDING22()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 22;
          this._frameNumber = 0;
          _footprint = [new Rectangle(0,0,90,90)];

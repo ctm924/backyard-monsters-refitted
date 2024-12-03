@@ -21,7 +21,7 @@ package gs.plugins
       
       public function AutoAlphaPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "autoAlpha";
          this.overwriteProps = ["alpha","visible"];
          this.onComplete = this.onCompleteTween;

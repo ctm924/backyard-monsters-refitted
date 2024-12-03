@@ -14,7 +14,7 @@ package com.smartfoxserver.v2.bitswarm
       
       public function DefaultUDPManager(param1:SmartFox)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._sfs = param1;
          this._log = Logger.getInstance();
       }

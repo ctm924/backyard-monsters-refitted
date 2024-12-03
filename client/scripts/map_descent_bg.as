@@ -9,7 +9,7 @@ package
       
       public function map_descent_bg()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -14,7 +14,7 @@ package com.monsters.replayableEvents.looting.wotc.rewards
       
       public function KorathReward()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override public function set value(param1:Number) : void

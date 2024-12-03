@@ -10,7 +10,7 @@ package as3reflect
       
       public function MetaDataArgument(param1:String, param2:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.key = param1;
          this.value = param2;
       }

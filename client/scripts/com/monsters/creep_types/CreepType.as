@@ -53,7 +53,7 @@ package com.monsters.creep_types
          this.m_Upgrades = new Vector.<CreepUpgrade>();
          this.trainingCosts = new Array();
          this.props = new Object();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function get id() : String

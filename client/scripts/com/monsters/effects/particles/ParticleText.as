@@ -20,7 +20,7 @@ package com.monsters.effects.particles
       
       public function ParticleText()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Create(param1:Point, param2:int, param3:uint) : ParticleDamageItem

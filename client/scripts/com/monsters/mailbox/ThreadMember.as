@@ -28,7 +28,7 @@ package com.monsters.mailbox
       
       public function ThreadMember()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.left = {
             "imageX":0,
             "bg":leftbg_mc,

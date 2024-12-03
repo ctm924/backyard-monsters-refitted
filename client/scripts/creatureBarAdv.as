@@ -13,7 +13,7 @@ package
       
       public function creatureBarAdv()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

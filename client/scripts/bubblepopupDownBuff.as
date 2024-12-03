@@ -13,7 +13,7 @@ package
       
       public function bubblepopupDownBuff()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._dropShadow = new DropShadowFilter();
          this._dropShadow.distance = 1;
          this._dropShadow.angle = 45;

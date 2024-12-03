@@ -12,7 +12,7 @@ package
       
       public function buttonZoom()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addEventListener(MouseEvent.CLICK,this.Click);
          addEventListener(MouseEvent.MOUSE_OVER,this.Over);
          addEventListener(MouseEvent.MOUSE_OUT,this.Out);

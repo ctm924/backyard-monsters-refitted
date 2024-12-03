@@ -6,7 +6,7 @@ package gs.easing
       
       public function Linear()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function easeNone(param1:Number, param2:Number, param3:Number, param4:Number) : Number

@@ -42,7 +42,7 @@ package com.monsters.maproom.views
       
       public function ListViewItem()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          truceBtn.SetupKey("map_truce_btn");
          msgBtn.SetupKey("map_message_btn");
          this.loader = new Loader();

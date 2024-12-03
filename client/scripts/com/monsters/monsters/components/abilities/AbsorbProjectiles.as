@@ -20,7 +20,7 @@ package com.monsters.monsters.components.abilities
       
       public function AbsorbProjectiles(param1:uint = 300)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_blastRadius = param1;
          this.m_absorbedProjectiles = new Vector.<PROJECTILE>();
       }

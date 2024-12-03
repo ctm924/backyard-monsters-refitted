@@ -28,7 +28,7 @@ package
       
       public function BUILDING25()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 25;
          _frameNumber = 0;
          _animTick = 0;

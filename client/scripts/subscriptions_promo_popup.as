@@ -40,7 +40,7 @@ package
       
       public function subscriptions_promo_popup()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

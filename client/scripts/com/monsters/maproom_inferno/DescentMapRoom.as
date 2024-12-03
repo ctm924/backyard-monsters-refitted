@@ -30,7 +30,7 @@ package com.monsters.maproom_inferno
       
       public function DescentMapRoom()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function init(param1:Object) : void

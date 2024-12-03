@@ -86,7 +86,7 @@ package
       
       public function WORKER(param1:*, param2:Point, param3:Number)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._mc = this;
          this._middle = 5;
          this.showTimer = new Timer(500);

@@ -32,7 +32,7 @@ package
       
       public function Button()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._startY = y;
          addEventListener(MouseEvent.MOUSE_OVER,this.Over);
          addEventListener(MouseEvent.MOUSE_OUT,this.Out);

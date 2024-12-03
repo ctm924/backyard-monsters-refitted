@@ -47,7 +47,7 @@ package com.monsters.display
       
       public function ScrollSet()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Init(param1:Sprite, param2:MovieClip, param3:int = 0, param4:Number = 0, param5:Number = 128, param6:Number = 30, param7:Number = 0) : void

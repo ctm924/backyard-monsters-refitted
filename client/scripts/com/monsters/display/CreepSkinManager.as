@@ -14,7 +14,7 @@ package com.monsters.display
       
       public function CreepSkinManager(param1:SingletonLock)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          s_Instance = this;
          this.m_CreepSkinPairs = new Dictionary();
       }

@@ -20,7 +20,7 @@ package com.monsters.maproom3.popups
       
       public function MapRoom3RelocatePopupDisplayList(param1:Vector.<MapRoom3FriendData>, param2:int = -1)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_FriendsToDisplay = param1;
          this.m_Container = new Sprite();
          addChild(this.m_Container);

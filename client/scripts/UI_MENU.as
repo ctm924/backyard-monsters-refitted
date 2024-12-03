@@ -37,7 +37,7 @@ package
       
       public function UI_MENU()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.bBuild = new StoneButton();
          this.bQuests = new StoneButton();
          this.bStore = new StoneButton();

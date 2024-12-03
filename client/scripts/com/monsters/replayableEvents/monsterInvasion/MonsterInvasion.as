@@ -39,7 +39,7 @@ package com.monsters.replayableEvents.monsterInvasion
       {
          this._currentAttackers = new Array();
          this._curSend = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._wavesTotal = param1;
       }
       

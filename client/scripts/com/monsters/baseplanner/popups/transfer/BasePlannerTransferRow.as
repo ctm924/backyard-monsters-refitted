@@ -23,7 +23,7 @@ package com.monsters.baseplanner.popups.transfer
       
       public function BasePlannerTransferRow(param1:BaseTemplate, param2:uint)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.template = param1;
          this.slot = param2;
          tSlotName.htmlText = KEYS.Get("basePlanner_slot_label",{"v1":String(param2 + 1)});

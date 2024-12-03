@@ -12,7 +12,7 @@ package gs.utils.tween
       
       public function ArrayTweenInfo(param1:uint, param2:Number, param3:Number)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.index = param1;
          this.start = param2;
          this.change = param3;

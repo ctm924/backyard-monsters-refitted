@@ -30,7 +30,7 @@ package com.smartfoxserver.v2.protocol.serialization
       
       public function DefaultSFSDataSerializer()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(_lock)
          {
             throw new Error("Can\'t use constructor, please use getInstance() method");

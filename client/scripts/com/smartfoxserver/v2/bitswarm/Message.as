@@ -20,7 +20,7 @@ package com.smartfoxserver.v2.bitswarm
       
       public function Message()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._isEncrypted = false;
          this._isUDP = false;
       }

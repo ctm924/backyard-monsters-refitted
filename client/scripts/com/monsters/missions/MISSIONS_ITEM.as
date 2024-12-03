@@ -32,7 +32,7 @@ package com.monsters.missions
          var description:String = null;
          var shortenStr:String = null;
          var missionID:String = param1;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._missionObject = QUESTS._quests[missionID];
          this._missionID = missionID;
          this._missionKey = this._missionObject.id;

@@ -24,7 +24,7 @@ package com.jac.mouse
       
       public function MouseWheelEnabler()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function init(param1:Stage, param2:Boolean = false) : void
@@ -329,6 +329,6 @@ class MouseWheelEnabler_JavaScript
    
    public function MouseWheelEnabler_JavaScript()
    {
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
    }
 }

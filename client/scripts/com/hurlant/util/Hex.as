@@ -8,7 +8,7 @@ package com.hurlant.util
       
       public function Hex()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function fromString(param1:String, param2:Boolean = false) : String

@@ -9,7 +9,7 @@ package
       
       public function MapViewDescent_Fog_Shroud()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

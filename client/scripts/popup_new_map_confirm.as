@@ -20,7 +20,7 @@ package
       
       public function popup_new_map_confirm()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

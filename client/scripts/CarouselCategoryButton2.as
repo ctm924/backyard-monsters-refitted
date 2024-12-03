@@ -18,7 +18,7 @@ package
       
       public function CarouselCategoryButton2()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

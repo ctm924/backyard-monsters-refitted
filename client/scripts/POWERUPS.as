@@ -42,7 +42,7 @@ package
       
       public function POWERUPS()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Setup(param1:Array = null, param2:Array = null, param3:Boolean = false) : void

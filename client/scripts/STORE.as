@@ -85,7 +85,7 @@ package
       
       public function STORE()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Data(storeItems:Object, storeData:Object, param3:Object = null) : void

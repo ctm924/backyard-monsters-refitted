@@ -20,7 +20,7 @@ package as3reflect
       
       public function AccessorAccess(param1:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _name = param1;
       }
       

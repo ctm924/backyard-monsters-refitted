@@ -20,7 +20,7 @@ package com.monsters.effects.fire
       
       public function Particle(param1:Number, param2:Number)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.x = param1;
          this.y = param2;
          this.vx = 0;

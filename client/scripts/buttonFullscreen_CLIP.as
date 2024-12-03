@@ -7,7 +7,7 @@ package
       
       public function buttonFullscreen_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(0,this.frame1,2,this.frame3);
       }
       

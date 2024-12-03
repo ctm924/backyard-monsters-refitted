@@ -81,7 +81,7 @@ package
       {
          var _loc1_:int = 0;
          var _loc3_:Boolean = false;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          var _loc2_:String = GLOBAL.mode;
          switch(GLOBAL.mode)
          {

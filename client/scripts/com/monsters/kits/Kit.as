@@ -10,7 +10,7 @@ package com.monsters.kits
 
         public function Kit(param1:Object)
         {
-            super();
+            var __transpiler_comment__:String = "Removed empty super call";
             this.build = param1;
             this.resourceWorth = popup_prefab.getResourceCostFromBuild(param1);
             this.shinyWorth = popup_prefab.getShinyWorthFromResources(this.resourceWorth);

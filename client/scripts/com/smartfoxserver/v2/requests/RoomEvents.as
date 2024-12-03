@@ -14,7 +14,7 @@ package com.smartfoxserver.v2.requests
       
       public function RoomEvents()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._allowUserCountChange = false;
          this._allowUserEnter = false;
          this._allowUserExit = false;

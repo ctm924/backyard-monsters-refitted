@@ -6,7 +6,7 @@ package com.monsters.frontPage.categories
       
       public function LongTerm()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          priority = 5;
          name = "Long-Term Projects";
       }

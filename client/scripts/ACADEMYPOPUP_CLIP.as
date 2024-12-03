@@ -92,7 +92,7 @@ package
       
       public function ACADEMYPOPUP_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(0,this.frame1);
       }
       

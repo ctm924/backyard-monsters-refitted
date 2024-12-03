@@ -43,7 +43,7 @@ package com.monsters.replayableEvents.monsterMadness.popups
       
       public function MonsterMadnessPopupInfo()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function getBanner(param1:int) : String

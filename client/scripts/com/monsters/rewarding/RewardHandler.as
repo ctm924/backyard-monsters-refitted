@@ -19,7 +19,7 @@ package com.monsters.rewarding
       public function RewardHandler()
       {
          this.rewards = new Vector.<Reward>();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function get instance() : RewardHandler

@@ -42,7 +42,7 @@ package
       
       public function SiegeBuildingPopup_ListItem_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

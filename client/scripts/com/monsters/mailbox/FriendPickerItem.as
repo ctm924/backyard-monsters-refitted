@@ -22,7 +22,7 @@ package com.monsters.mailbox
       
       public function FriendPickerItem(param1:Contact)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.data = param1;
          var _loc2_:String = param1.lastname.length > 2 ? " " + param1.lastname.charAt(0).toUpperCase() + "." : "";
          this.name_str = param1.firstname.toUpperCase() + _loc2_;

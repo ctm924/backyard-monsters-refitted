@@ -22,7 +22,7 @@ package com.smartfoxserver.v2.entities
       
       public function SFSBuddy(param1:int, param2:String, param3:Boolean = false, param4:Boolean = false)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._id = param1;
          this._name = param2;
          this._isBlocked = param3;

@@ -88,7 +88,7 @@ package com.monsters.maproom3.data
       
       public function MapRoom3CellData(cellData:Object)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.Map(cellData);
       }
       

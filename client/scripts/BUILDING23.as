@@ -34,7 +34,7 @@ package
       
       public function BUILDING23()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 23;
          _frameNumber = 0;
          _footprint = [new Rectangle(0,0,70,70)];

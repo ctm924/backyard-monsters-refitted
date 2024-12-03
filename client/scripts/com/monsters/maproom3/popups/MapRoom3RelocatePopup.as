@@ -24,7 +24,7 @@ package com.monsters.maproom3.popups
       
       public function MapRoom3RelocatePopup(param1:SingletonLock)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          titleText.htmlText = KEYS.Get("mr3_relocate_main_yard_title");
          selectDescriptionText.htmlText = KEYS.Get("mr3_relocate_main_yard_description_select");
          randomDescriptionText.htmlText = KEYS.Get("mr3_relocate_main_yard_description_random");

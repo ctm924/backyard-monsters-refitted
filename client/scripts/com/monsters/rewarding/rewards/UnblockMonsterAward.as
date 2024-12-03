@@ -10,7 +10,7 @@ package com.monsters.rewarding.rewards
       
       public function UnblockMonsterAward(param1:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._monsterID = param1;
       }
       

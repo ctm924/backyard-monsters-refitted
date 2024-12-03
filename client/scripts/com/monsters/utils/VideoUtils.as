@@ -17,7 +17,7 @@ package com.monsters.utils
       
       public function VideoUtils()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function getVideoStream(param1:Video, param2:String = null) : NetStream

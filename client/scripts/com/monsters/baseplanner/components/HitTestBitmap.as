@@ -14,7 +14,7 @@ package com.monsters.baseplanner.components
       
       public function HitTestBitmap()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function complexHitTestObject(param1:DisplayObject, param2:DisplayObject, param3:Number = 1) : Boolean

@@ -48,7 +48,7 @@ package com.monsters.maproom_advanced
       {
          this._attackResources = {};
          this._cellsInRange = new Vector.<CellData>(0,true);
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          mMonsters.mask = mMonstersMask;
          this._scroller = new ScrollSet();
          this._scroller.isHiddenWhileUnnecessary = true;

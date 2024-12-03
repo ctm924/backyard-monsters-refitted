@@ -10,7 +10,7 @@ package com.monsters.replayableEvents.monsterInvasion.hellRaisers.rewards
       
       public function UnlockMagmaTowerInOutposts()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override protected function onApplication() : void

@@ -16,7 +16,7 @@ package com.monsters.monsters.components.modifiers
       
       public function HyperSpeed()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

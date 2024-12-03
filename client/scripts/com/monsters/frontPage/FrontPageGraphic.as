@@ -34,7 +34,7 @@ package com.monsters.frontPage
       
       public function FrontPageGraphic(param1:Message = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          bNext.visible = false;
          bPrev.visible = false;
          bNext.tLabel.htmlText = KEYS.Get("btn_next");
@@ -219,7 +219,7 @@ class CarouselCategory extends Sprite
    
    public function CarouselCategory(param1:Category, param2:Boolean = false)
    {
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
       this.button = new CarouselCategoryButton2();
       this.button.buttonMode = true;
       addChild(this.button);

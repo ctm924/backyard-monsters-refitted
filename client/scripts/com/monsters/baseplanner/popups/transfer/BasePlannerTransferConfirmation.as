@@ -10,7 +10,7 @@ package com.monsters.baseplanner.popups.transfer
       
       public function BasePlannerTransferConfirmation(param1:String = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          tTitle.htmlText = KEYS.Get("pop_areyousure");
          tBody.htmlText = KEYS.Get("basePlanner_overwrite",{"v1":param1});
          bCancel.SetupKey("btn_cancel");

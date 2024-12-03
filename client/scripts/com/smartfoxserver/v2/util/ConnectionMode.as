@@ -10,7 +10,7 @@ package com.smartfoxserver.v2.util
       
       public function ConnectionMode()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          throw new ArgumentError("The ConnectionMode class has no constructor!");
       }
    }

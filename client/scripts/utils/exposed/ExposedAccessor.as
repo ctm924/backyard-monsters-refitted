@@ -14,7 +14,7 @@ package utils.exposed
       
       public function ExposedAccessor(param1:String, param2:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_Name = param1;
          this.m_QualifiedClassName = param2;
          this.m_ClassType = getDefinitionByName(param2) as Class;

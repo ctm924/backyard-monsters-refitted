@@ -12,4 +12,6 @@ if [[ $? -ne 0 ]]; then
     exit 1
 fi
 
-chokidar -c "java -jar converter.jar config.json" "../client/scripts/**/*"
+cd ..
+
+chokidar -c "java -jar ax3/converter.jar ax3/config.json" "client/scripts/**/*"

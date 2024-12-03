@@ -23,7 +23,7 @@ package gs.plugins
       
       public function TransformAroundPointPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "transformAroundPoint";
          this.overwriteProps = [];
       }

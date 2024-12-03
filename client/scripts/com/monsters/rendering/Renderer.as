@@ -33,7 +33,7 @@ package com.monsters.rendering
       
       public function Renderer(param1:BitmapData, param2:Rectangle)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.renderer_friend::_canvas = param1;
          this.renderer_friend::_viewRect = param2;
       }

@@ -12,7 +12,7 @@ package com.monsters.utils
       
       public function MovieClipUtils()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function validateFrameLabel(param1:MovieClip, param2:String) : Boolean

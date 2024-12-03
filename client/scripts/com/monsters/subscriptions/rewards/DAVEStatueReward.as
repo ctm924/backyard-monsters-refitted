@@ -16,7 +16,7 @@ package com.monsters.subscriptions.rewards
       
       public function DAVEStatueReward()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function unlockTeaserInformation(param1:Function) : void

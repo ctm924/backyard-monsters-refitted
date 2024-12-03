@@ -38,7 +38,7 @@ package
       public function PLANNERPOPUP()
       {
          this._windowRect = new Rectangle(35,65,565,425);
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          tName.visible = false;
          mcNameBG.visible = false;
          tName.autoSize = "left";

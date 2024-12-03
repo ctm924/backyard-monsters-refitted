@@ -14,7 +14,7 @@ package gs.plugins
       
       public function BlurFilterPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "blurFilter";
          this.overwriteProps = ["blurFilter"];
       }

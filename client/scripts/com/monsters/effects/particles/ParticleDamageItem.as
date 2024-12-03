@@ -12,7 +12,7 @@ package com.monsters.effects.particles
       
       public function ParticleDamageItem()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Init(param1:Point, param2:int, param3:uint) : void

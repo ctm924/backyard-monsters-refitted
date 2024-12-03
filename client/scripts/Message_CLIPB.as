@@ -30,7 +30,7 @@ package
       
       public function Message_CLIPB()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

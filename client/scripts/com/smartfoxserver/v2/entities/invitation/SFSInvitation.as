@@ -19,7 +19,7 @@ package com.smartfoxserver.v2.entities.invitation
       
       public function SFSInvitation(param1:User, param2:User, param3:int = 15, param4:ISFSObject = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._inviter = param1;
          this._invitee = param2;
          this._secondsForAnswer = param3;

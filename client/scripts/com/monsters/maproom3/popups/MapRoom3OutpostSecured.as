@@ -12,7 +12,7 @@ package com.monsters.maproom3.popups
       
       public function MapRoom3OutpostSecured(param1:int, param2:Object)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.setup(param1,param2);
       }
       

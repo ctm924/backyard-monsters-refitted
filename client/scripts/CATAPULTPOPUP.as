@@ -28,7 +28,7 @@ package
       
       public function CATAPULTPOPUP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Format(param1:Number, param2:Boolean = false) : String

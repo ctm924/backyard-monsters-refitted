@@ -21,7 +21,7 @@ package com.monsters.ai
       
       public function PROCESS3()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Trigger(param1:Number = 1) : void

@@ -21,7 +21,7 @@ package
       public function BUILDING2()
       {
          this._frameNumber = Math.random() * 5;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._frameNumber = int(Math.random() * 5);
          _type = 2;
          _footprint = [new Rectangle(0,0,70,70)];

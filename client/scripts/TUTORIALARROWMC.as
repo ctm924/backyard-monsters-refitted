@@ -31,7 +31,7 @@ package
       {
          var posx:Number = param1;
          var posy:Number = param2;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.posX = posx;
          this.posY = posy;
          if(GLOBAL._local)

@@ -11,7 +11,7 @@ package com.monsters.monsters.components.abilities
       
       public function DAVERockets()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override protected function onRegister() : void

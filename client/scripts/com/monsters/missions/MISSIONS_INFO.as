@@ -39,7 +39,7 @@ package com.monsters.missions
          var weapon:SiegeWeapon = null;
          var c:int = 0;
          var missionID:String = param1;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          tReward.htmlText = "<b>" + KEYS.Get("popup_label_reward") + "</b>";
          this._missionObject = QUESTS._quests[missionID];
          this._missionID = missionID;

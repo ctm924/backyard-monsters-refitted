@@ -20,7 +20,7 @@ package com.monsters.maproom
       
       public function PlayerBase_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -16,7 +16,7 @@ package com.smartfoxserver.v2.entities.data
       
       public function SFSArray()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.dataHolder = [];
          this.serializer = DefaultSFSDataSerializer.getInstance();
       }

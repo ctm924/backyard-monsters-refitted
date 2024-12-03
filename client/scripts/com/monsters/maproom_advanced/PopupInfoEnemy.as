@@ -55,7 +55,7 @@ package com.monsters.maproom_advanced
       
       public function PopupInfoEnemy()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.Center();
          this.tNameLabel.htmlText = "<b>" + KEYS.Get("popup_label_name") + "</b>";
          this.tLocationLabel.htmlText = "<b>" + KEYS.Get("popup_label_location") + "</b>";

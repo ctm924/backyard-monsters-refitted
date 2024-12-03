@@ -12,7 +12,7 @@ package
       
       public function BUILDING16()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 16;
          _spoutPoint = new Point(0,-5);
          _spoutHeight = 55;

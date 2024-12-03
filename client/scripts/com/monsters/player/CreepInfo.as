@@ -16,7 +16,7 @@ package com.monsters.player
       
       public function CreepInfo(param1:int = 0, param2:int = 2147483647, param3:MonsterBase = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.ownerID = param1;
          this.health = param2;
          this.self = param3;

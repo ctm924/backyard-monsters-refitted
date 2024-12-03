@@ -31,7 +31,7 @@ package
       
       public function MONSTERBUNKER()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Data(param1:Object) : void

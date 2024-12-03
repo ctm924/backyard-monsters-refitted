@@ -19,7 +19,7 @@ package com.monsters.monsters.components.abilities
       public function ProximityLootBuff()
       {
          this.m_buddiesInRange = new Vector.<MonsterBase>();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override public function register(param1:MonsterBase, param2:String = null) : void

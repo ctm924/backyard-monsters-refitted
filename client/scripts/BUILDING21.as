@@ -13,7 +13,7 @@ package
       
       public function BUILDING21()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _frameNumber = 0;
          _type = 21;
          _top = BASE.isInfernoMainYardOrOutpost ? -60 : -30;

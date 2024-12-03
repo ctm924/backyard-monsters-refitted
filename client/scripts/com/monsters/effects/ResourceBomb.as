@@ -76,7 +76,7 @@ package com.monsters.effects
          var _loc21_:Number = NaN;
          this.particles = {};
          this.targets = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.position = param2;
          this.size = param3.radius;
          this.bomb = param3;

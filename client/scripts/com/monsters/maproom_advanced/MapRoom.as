@@ -107,7 +107,7 @@ package com.monsters.maproom_advanced
       
       public function MapRoom()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function get homeCell() : IMapRoomCell

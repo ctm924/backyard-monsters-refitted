@@ -94,7 +94,7 @@ package com.monsters.maproom3
       
       public function MapRoom3CellMouseover()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          mouseEnabled = false;
          mouseChildren = false;
          this.m_InfoDisplay = new Sprite();

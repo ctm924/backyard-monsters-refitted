@@ -16,7 +16,7 @@ package
       
       public function ERRORMESSAGE()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Show(param1:String, param2:int = 0) : void

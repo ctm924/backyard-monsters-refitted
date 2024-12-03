@@ -26,7 +26,7 @@ package
       
       public function GIFTS()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Process(param1:*) : void

@@ -23,7 +23,7 @@ package
       
       public function BUILDINGSPOPUP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._subButtonsMC = null;
          this._thumbnailsMC = null;
          this._buildingInfoMC = null;

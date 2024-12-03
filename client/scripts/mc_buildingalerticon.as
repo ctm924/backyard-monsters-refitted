@@ -9,7 +9,7 @@ package
       
       public function mc_buildingalerticon()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

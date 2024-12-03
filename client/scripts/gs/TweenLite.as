@@ -90,7 +90,7 @@ package gs
       
       public function TweenLite(param1:Object, param2:Number, param3:Object)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(param1 == null)
          {
             return;

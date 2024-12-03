@@ -14,7 +14,7 @@ package
       
       public function SmallButton()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          stop();
          mouseChildren = false;
          buttonMode = true;

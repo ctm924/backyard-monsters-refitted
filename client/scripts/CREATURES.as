@@ -23,7 +23,7 @@ package
       
       public function CREATURES()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _creatures = {};
          _creatureID = 0;
          _creatureCount = 0;

@@ -79,7 +79,7 @@ package
       {
          var _loc1_:MovieClip = null;
          this._juiceList = {};
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._bunker = GLOBAL._selectedBuilding;
          this._capacity = GLOBAL._buildingProps[21].capacity[this._bunker._lvl.Get() - 1];
          this._selected = {};

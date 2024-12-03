@@ -33,7 +33,7 @@ package
             mcImage.width = 200;
             mcImage.height = 200;
          };
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(popupnum == -1)
          {
             popupnum = Math.floor(Math.random() * 3) + 1;

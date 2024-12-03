@@ -18,7 +18,7 @@ package com.smartfoxserver.v2.entities.variables
       
       public function SFSUserVariable(param1:String, param2:*, param3:int = -1)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._name = param1;
          if(param3 > -1)
          {

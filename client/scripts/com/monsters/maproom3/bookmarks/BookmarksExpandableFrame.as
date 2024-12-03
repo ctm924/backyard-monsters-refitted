@@ -20,7 +20,7 @@ package com.monsters.maproom3.bookmarks
       
       public function BookmarksExpandableFrame(param1:Sprite, param2:String, param3:int = -1, param4:Boolean = false)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          headerText.htmlText = param2;
          headerText.mouseEnabled = false;
          this.m_Contents = param1;

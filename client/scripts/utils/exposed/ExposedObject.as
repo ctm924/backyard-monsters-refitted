@@ -10,7 +10,7 @@ package utils.exposed
       
       public function ExposedObject()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       internal function get id() : String

@@ -26,7 +26,7 @@ package
       public function CHAMPIONCHAMBER()
       {
          this._frozen = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 119;
          _footprint = [new Rectangle(0,0,100,100)];
          _gridCost = [[new Rectangle(0,0,100,100),10],[new Rectangle(10,10,80,80),200]];

@@ -47,7 +47,7 @@ package
       
       public function INFERNO_EMERGENCE_EVENT()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       private static function get _intermissionDuration() : Number

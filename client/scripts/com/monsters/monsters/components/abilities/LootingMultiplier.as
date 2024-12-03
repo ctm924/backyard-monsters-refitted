@@ -20,7 +20,7 @@ package com.monsters.monsters.components.abilities
       
       public function LootingMultiplier(param1:Number)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_multiplier = param1;
       }
       

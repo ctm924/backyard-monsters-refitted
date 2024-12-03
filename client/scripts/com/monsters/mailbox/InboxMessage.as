@@ -29,7 +29,7 @@ package com.monsters.mailbox
       
       public function InboxMessage()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          b1.SetupKey("mail_open_btn");
          b1.addEventListener(MouseEvent.CLICK,this.openDown);
       }

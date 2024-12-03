@@ -13,7 +13,7 @@ package com.smartfoxserver.v2.bitswarm
       
       public function PendingPacket(param1:PacketHeader)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._header = param1;
          this._buffer = new ByteArray();
       }

@@ -9,7 +9,7 @@ package BasePlanner_fla
       
       public function CheckBox_3()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(0,this.frame1);
       }
       

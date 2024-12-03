@@ -6,7 +6,7 @@ package
       
       public function UI_WARNING()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Update(param1:String) : void

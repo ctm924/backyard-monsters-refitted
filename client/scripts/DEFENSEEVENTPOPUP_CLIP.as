@@ -20,7 +20,7 @@ package
       
       public function DEFENSEEVENTPOPUP_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(1,this.frame2);
       }
       

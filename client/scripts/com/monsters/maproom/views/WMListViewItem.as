@@ -40,7 +40,7 @@ package com.monsters.maproom.views
       
       public function WMListViewItem()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          removeChild(dot);
          removeChild(attacks_txt);
          removeChild(status_txt);

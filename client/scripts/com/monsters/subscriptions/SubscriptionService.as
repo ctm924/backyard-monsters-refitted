@@ -14,7 +14,7 @@ package com.monsters.subscriptions
       public function SubscriptionService()
       {
          this._callbacks = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       private function callJS(param1:String, param2:Function = null, param3:Number = 2, param4:Boolean = true) : void

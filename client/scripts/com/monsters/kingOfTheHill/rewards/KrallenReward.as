@@ -14,7 +14,7 @@ package com.monsters.kingOfTheHill.rewards
       
       public function KrallenReward()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override protected function onApplication() : void

@@ -28,7 +28,7 @@ package
       
       public function popup_infernodescent_battle_report()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

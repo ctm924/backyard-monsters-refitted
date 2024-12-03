@@ -19,7 +19,7 @@ package gs.plugins
       
       public function VisiblePlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "visible";
          this.overwriteProps = ["visible"];
          this.onComplete = this.onCompleteTween;

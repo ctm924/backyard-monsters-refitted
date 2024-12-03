@@ -21,7 +21,7 @@ package
       
       public function BUILDINGS()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Reset(param1:Boolean = false) : void

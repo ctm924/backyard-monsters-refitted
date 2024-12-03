@@ -9,7 +9,7 @@ package SWC_ALL_fla
       
       public function workerIcon_Inferno_811()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(0,this.frame1);
       }
       

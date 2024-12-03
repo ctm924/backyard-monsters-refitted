@@ -30,7 +30,7 @@ package
 
       public function URLLoaderApi()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
 
       public function load(baseUrl:String, keyValuePairs:Array = null, onComplete:Function = null, onFail:Function = null):void

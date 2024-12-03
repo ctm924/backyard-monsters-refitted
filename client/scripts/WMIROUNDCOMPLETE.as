@@ -40,7 +40,7 @@ package
             mcImage.width = 200;
             mcImage.height = 200;
          };
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _wave = wave;
          ImageCache.GetImageWithCallBack(SPECIALEVENT.BANNERIMAGE,bannerComplete);
          if(wave == -1)

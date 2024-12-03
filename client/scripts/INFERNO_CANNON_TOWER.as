@@ -12,7 +12,7 @@ package
       
       public function INFERNO_CANNON_TOWER()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _frameNumber = 0;
          _type = TYPE;
          _top = -25;

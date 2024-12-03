@@ -68,7 +68,7 @@ package com.monsters.maproom_inferno.model
       
       public function BaseObject(param1:Object)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.level = new SecNum(Number(param1.level));
          this.baseid = new SecNum(Number(param1.baseid));
          this.basename = param1.basename;

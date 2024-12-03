@@ -24,7 +24,7 @@ package com.monsters.creep_types
       
       public function CreepProps()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function get speed() : Number

@@ -18,7 +18,7 @@ package com.smartfoxserver.v2.logging
       
       public function Logger()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(_locked)
          {
             throw new Error("Cannot instantiate the Logger using the constructor. Please use the getInstance() method");

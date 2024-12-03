@@ -24,7 +24,7 @@ package com.monsters.display
       
       public function Loadable()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.callbacks = [].concat();
          this.tries = 0;
          this.loader = new Loader();

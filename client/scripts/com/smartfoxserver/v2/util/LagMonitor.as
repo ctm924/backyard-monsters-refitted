@@ -26,7 +26,7 @@ package com.smartfoxserver.v2.util
       
       public function LagMonitor(param1:SmartFox, param2:int = 2, param3:int = 10)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._sfs = param1;
          this._valueQueue = [];
          this._interval = param2;

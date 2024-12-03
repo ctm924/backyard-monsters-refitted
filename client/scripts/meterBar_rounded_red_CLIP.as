@@ -15,7 +15,7 @@ package
       
       public function meterBar_rounded_red_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -33,7 +33,7 @@ package
          this._juiceList = {};
          this._creatureList = {};
          this._creatureData = {};
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(GLOBAL._bJuicer)
          {
             gotoAndStop(2);

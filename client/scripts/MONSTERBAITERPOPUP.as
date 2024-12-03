@@ -29,7 +29,7 @@ package
       
       public function MONSTERBAITERPOPUP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          title_txt.htmlText = KEYS.Get("bait_title");
       }
       

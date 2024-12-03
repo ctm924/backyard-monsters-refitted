@@ -24,7 +24,7 @@ package com.monsters.ai
       
       public function INFERNO_EMERGENCE_PROCESS()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function PROCESS1() : void

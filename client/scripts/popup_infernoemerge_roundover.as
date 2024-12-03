@@ -18,7 +18,7 @@ package
       
       public function popup_infernoemerge_roundover()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

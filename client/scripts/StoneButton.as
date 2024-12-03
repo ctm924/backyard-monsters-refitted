@@ -71,7 +71,7 @@ package
       
       public function StoneButton()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function getButtonWidth() : int

@@ -12,7 +12,7 @@ package
       
       public function points_txt()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -44,7 +44,7 @@ package
       
       public function subscriptions_controlPanel_popup()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

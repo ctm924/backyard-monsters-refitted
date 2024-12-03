@@ -295,7 +295,7 @@ package
       
       public function BASE()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _baseID = 0;
          Setup();
          Load();

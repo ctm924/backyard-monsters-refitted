@@ -6,7 +6,7 @@ package com.monsters.configs
       
       public function InstanceEnforcer()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

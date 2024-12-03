@@ -15,7 +15,7 @@ package
       
       public function BUILDING20()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _frameNumber = 0;
          _type = 20;
          _top = -4;

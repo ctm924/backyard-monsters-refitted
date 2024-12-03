@@ -21,7 +21,7 @@ package com.monsters.maproom.views
       
       public function ListView_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

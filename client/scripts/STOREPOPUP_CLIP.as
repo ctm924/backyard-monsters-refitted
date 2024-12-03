@@ -28,7 +28,7 @@ package
       
       public function STOREPOPUP_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

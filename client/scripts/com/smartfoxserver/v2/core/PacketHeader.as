@@ -18,7 +18,7 @@ package com.smartfoxserver.v2.core
       
       public function PacketHeader(param1:Boolean, param2:Boolean = false, param3:Boolean = false, param4:Boolean = false)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._expectedLen = -1;
          this._binary = true;
          this._compressed = param2;

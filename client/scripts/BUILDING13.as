@@ -16,7 +16,7 @@ package
       
       public function BUILDING13()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._frameNumber = 0;
          _type = 13;
          _inProduction = "";

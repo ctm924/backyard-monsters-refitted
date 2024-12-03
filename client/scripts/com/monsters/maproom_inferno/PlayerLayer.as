@@ -55,7 +55,7 @@ package com.monsters.maproom_inferno
       
       public function PlayerLayer()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.basesForeign = [].concat();
          this.baseData = [].concat();
          this.basesAll = [].concat();

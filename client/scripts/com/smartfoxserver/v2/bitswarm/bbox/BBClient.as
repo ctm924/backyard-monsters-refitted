@@ -65,7 +65,7 @@ package com.smartfoxserver.v2.bitswarm.bbox
       
       public function BBClient(param1:String = "localhost", param2:int = 8080, param3:Boolean = false)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._host = param1;
          this._port = param2;
          this._debug = param3;

@@ -33,7 +33,7 @@ package com.monsters.chat
       
       public function Chat()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function initChat() : void

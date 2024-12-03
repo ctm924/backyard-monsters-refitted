@@ -35,7 +35,7 @@ package com.monsters.mailbox
       
       public function Message(param1:String = "all")
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          (mcFrame as frame).Setup(true,this.closeDown);
          this.picker = new FriendPicker(param1);
          this.picker.x = 238;

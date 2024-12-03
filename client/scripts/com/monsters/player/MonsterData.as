@@ -18,7 +18,7 @@ package com.monsters.player
       
       public function MonsterData()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_creatureID = "";
          this.m_creeps = new Vector.<CreepInfo>();
          this.m_level = 0;

@@ -22,7 +22,7 @@ package com.monsters.replayableEvents
       
       public function ReplayableEventQuota(param1:Number, param2:String = null, param3:String = null, param4:Message = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.rewardID = param3;
          this.imageURL = param2;
          this.quota = param1;

@@ -28,7 +28,7 @@ package com.jac.mouse
       {
          var _loc4_:String = null;
          var _loc5_:String = null;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(!param1 || !param2 || !param3)
          {
             return;

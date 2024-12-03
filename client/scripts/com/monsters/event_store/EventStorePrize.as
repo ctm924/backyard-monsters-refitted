@@ -36,7 +36,7 @@ package com.monsters.event_store
       public function EventStorePrize(param1:Object)
       {
          this.m_Image = new Bitmap();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_Id = param1.id;
          this.m_NameKey = param1.name_key;
          this.m_DescriptionKey = param1.description_key;

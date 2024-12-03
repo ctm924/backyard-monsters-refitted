@@ -35,7 +35,7 @@ package com.monsters.maproom_advanced
          this._transferMonsters = {};
          this._monstersLeft = {};
          this._transferBars = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          x = 760 / 2 + 75;
          y = 520 / 2 - 10;
          mMonsters.mask = mMonstersMask;

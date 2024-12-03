@@ -36,7 +36,7 @@ package
       
       public function CREEPS()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _creeps = {};
          m_attackingCreeps.length = 0;
          _creepID = 0;

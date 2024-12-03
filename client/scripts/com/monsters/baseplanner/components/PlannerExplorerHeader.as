@@ -18,7 +18,7 @@ package com.monsters.baseplanner.components
       public function PlannerExplorerHeader(param1:String)
       {
          var _loc2_:String = null;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._category = param1;
          this._elementList = new Vector.<PlannerExplorerButton>();
          mc = new BasePlannerPopup_ExplorerItem_Category();

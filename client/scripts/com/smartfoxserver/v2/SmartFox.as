@@ -89,7 +89,7 @@ package com.smartfoxserver.v2
       
       public function SmartFox(param1:Boolean = false)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._log = Logger.getInstance();
          this._log.enableEventDispatching = true;
          this._debug = param1;

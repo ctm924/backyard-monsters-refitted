@@ -6,7 +6,7 @@ package com.smartfoxserver.v2.util
       
       public function ArrayUtil()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          throw new Error("This class contains static methods only! Do not instaniate it");
       }
       

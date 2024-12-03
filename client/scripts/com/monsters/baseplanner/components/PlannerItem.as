@@ -15,7 +15,7 @@ package com.monsters.baseplanner.components
       
       public function PlannerItem()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addEventListener(MouseEvent.CLICK,this.onClick);
          addEventListener(MouseEvent.ROLL_OVER,this.onRollOver);
          addEventListener(MouseEvent.ROLL_OUT,this.onRollOut);

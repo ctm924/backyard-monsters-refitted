@@ -17,7 +17,7 @@ package gs.plugins
       
       public function FramePlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "frame";
          this.overwriteProps = ["frame"];
          this.round = true;

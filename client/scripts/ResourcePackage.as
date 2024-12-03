@@ -36,7 +36,7 @@ package
          var id:int = param6;
          var target:BFOUNDATION = param7;
          var delay:Number = param8;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          Sound = function():void
          {
             if(BASE.isInfernoMainYardOrOutpost)

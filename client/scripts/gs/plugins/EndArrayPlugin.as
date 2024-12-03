@@ -19,7 +19,7 @@ package gs.plugins
       public function EndArrayPlugin()
       {
          this._info = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "endArray";
          this.overwriteProps = ["endArray"];
       }

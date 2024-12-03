@@ -30,7 +30,7 @@ package com.monsters.enums
       
       public function EnumBaseMode()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

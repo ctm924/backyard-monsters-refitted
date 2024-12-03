@@ -6,7 +6,7 @@ package com.monsters.kingOfTheHill.graphics
       
       public function KOTHHUDGraphic(param1:Boolean, param2:uint)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.update(param1,param2);
          buttonMode = true;
       }

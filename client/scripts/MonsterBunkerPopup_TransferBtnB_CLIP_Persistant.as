@@ -20,7 +20,7 @@ package
       
       public function MonsterBunkerPopup_TransferBtnB_CLIP_Persistant()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -11,7 +11,7 @@ package com.monsters.monsters.components.abilities
       
       public function TowerTaunt(param1:uint = 500)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_radius = param1;
       }
       

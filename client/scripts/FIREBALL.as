@@ -51,7 +51,7 @@ package
       
       public function FIREBALL()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Setup(param1:String = "fireball") : void

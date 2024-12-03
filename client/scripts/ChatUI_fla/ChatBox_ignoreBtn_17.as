@@ -9,7 +9,7 @@ package ChatUI_fla
       
       public function ChatBox_ignoreBtn_17()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(0,this.frame1);
       }
       

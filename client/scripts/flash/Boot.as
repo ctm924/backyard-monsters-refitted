@@ -23,7 +23,7 @@ package flash
       
       public function Boot()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(Boot.skip_constructor)
          {
             return;

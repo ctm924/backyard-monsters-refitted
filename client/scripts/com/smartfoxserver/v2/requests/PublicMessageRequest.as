@@ -9,7 +9,7 @@ package com.smartfoxserver.v2.requests
       
       public function PublicMessageRequest(param1:String, param2:ISFSObject = null, param3:Room = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = GenericMessageType.PUBLIC_MSG;
          _message = param1;
          _room = param3;

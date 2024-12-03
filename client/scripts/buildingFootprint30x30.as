@@ -9,7 +9,7 @@ package
       
       public function buildingFootprint30x30()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

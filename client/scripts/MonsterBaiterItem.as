@@ -28,7 +28,7 @@ package
       
       public function MonsterBaiterItem()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          tInfo.textColor = 16711680;
       }
       

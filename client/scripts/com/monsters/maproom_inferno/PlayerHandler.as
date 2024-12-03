@@ -35,7 +35,7 @@ package com.monsters.maproom_inferno
       
       public function PlayerHandler()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(MAPROOM_DESCENT._open)
          {
             if(DescentMapRoom.BRIDGE)

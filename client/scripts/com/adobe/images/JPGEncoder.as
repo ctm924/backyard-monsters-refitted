@@ -81,7 +81,7 @@ package com.adobe.images
          this.YDU = new Array(64);
          this.UDU = new Array(64);
          this.VDU = new Array(64);
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(param1 <= 0)
          {
             param1 = 1;

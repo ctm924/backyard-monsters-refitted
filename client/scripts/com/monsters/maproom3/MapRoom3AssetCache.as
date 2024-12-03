@@ -150,7 +150,7 @@ package com.monsters.maproom3
       
       public function MapRoom3AssetCache(param1:SingletonLock)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function get instance() : MapRoom3AssetCache

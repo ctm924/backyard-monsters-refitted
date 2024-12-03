@@ -12,7 +12,7 @@ package com.monsters.maproom3.data
       
       public function MapRoom3AllianceData(param1:Object)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.Map(param1);
       }
       

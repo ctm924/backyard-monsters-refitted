@@ -15,7 +15,7 @@ package com.adobe.crypto
       
       public function MD5()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function hash(param1:String) : String

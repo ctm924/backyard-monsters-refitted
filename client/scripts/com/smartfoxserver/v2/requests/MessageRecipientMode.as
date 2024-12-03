@@ -18,7 +18,7 @@ package com.smartfoxserver.v2.requests
       
       public function MessageRecipientMode(param1:int, param2:*)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(param1 < TO_USER || param1 > TO_ZONE)
          {
             throw new ArgumentError("Illegal recipient mode: " + param1);

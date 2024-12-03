@@ -54,7 +54,7 @@ package com.monsters.rendering
       
       public function RasterData(param1:IBitmapDrawable, param2:Point, param3:Number, param4:String = null, param5:Boolean = false)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.data = param1;
          this.renderer_friend::_pt = param2;
          this.renderer_friend::_depth = param3;

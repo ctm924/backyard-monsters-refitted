@@ -18,7 +18,7 @@ package com.monsters.rewarding
       
       public function Reward()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       internal function applyReward() : Boolean

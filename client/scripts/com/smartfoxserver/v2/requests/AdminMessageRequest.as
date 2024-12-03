@@ -8,7 +8,7 @@ package com.smartfoxserver.v2.requests
       
       public function AdminMessageRequest(param1:String, param2:MessageRecipientMode, param3:ISFSObject = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(param2 == null)
          {
             throw new ArgumentError("RecipientMode cannot be null!");

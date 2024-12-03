@@ -12,7 +12,7 @@ package com.monsters.subscriptions.rewards
       
       public function ImprovedHCCReward()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override public function canBeApplied() : Boolean

@@ -9,7 +9,7 @@ package com.monsters.maproom.views
       
       public function MapBasePopup()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function initWithTitleAndButtons(param1:String, param2:Array, param3:Array) : void

@@ -13,7 +13,7 @@ package gs.plugins
       
       public function ShortRotationPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "shortRotation";
          this.overwriteProps = [];
       }

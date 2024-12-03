@@ -2,7 +2,6 @@ package as3reflect
 {
    public class AbstractMember extends MetaDataContainer implements IMember
    {
-       
       
       private var _declaringType:Type;
       

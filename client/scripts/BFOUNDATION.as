@@ -339,7 +339,7 @@ package
       public function BFOUNDATION()
       {
          this._overlayOffset = new Point(0,0);
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._spoutPoint = new Point(1,-67);
          this._spoutHeight = 135;
          setHealth(1);

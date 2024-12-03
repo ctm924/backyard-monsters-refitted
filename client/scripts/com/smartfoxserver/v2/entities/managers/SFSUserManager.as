@@ -23,7 +23,7 @@ package com.smartfoxserver.v2.entities.managers
       
       public function SFSUserManager(param1:SmartFox)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._smartFox = param1;
          this._log = Logger.getInstance();
          this._usersByName = new HashMap();

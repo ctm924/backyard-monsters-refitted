@@ -58,7 +58,7 @@ package com.monsters.kingOfTheHill
          this._lootThresholds = new Vector.<uint>();
          this._tierChangeMessages = Vector.<Class>([KOTHQuota1MetMessage,KOTHQuota2MetMessage]);
          this._lootChangeMessages = Vector.<Class>([KOTHQuota1MetMessage,KOTHQuota2MetMessage]);
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function get instance() : KOTHHandler

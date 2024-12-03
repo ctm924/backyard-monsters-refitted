@@ -12,7 +12,7 @@ package com.monsters.maproom3.tiles
       
       public function MapRoom3TileSetRange(param1:int, param2:int)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.start = param1;
          this.end = param2;
          this.options = new Array();

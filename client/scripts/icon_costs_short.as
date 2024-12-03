@@ -14,7 +14,7 @@ package
       
       public function icon_costs_short()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -24,7 +24,7 @@ package com.monsters.maproom3.popups
       
       public function Maproom3AttackCostPopup(param1:MapRoom3Cell)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_graphic = new attackCostPopup();
          this.m_cell = param1;
          this.setup();

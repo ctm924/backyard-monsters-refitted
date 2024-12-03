@@ -15,7 +15,7 @@ package gs.plugins
       
       public function HexColorsPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "hexColors";
          this.overwriteProps = [];
          this._colors = [];

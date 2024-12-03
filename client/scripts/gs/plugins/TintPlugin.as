@@ -23,7 +23,7 @@ package gs.plugins
       
       public function TintPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "tint";
          this.overwriteProps = ["tint"];
       }

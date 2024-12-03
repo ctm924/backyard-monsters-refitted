@@ -63,7 +63,7 @@ package com.monsters.chat
       
       public function CS_SmartFoxServer2X(param1:String = "message3.dc.kixeye.com", param2:int = 9933, param3:String = "Backyard Monsters")
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.host = param1;
          this.port = param2;
          this.zone = param3;

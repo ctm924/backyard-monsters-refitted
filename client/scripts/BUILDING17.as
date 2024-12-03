@@ -12,7 +12,7 @@ package
       
       public function BUILDING17()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 17;
          _footprint = [new Rectangle(0,0,20,20)];
          _gridCost = [[new Rectangle(-10,-10,40,40),20],[new Rectangle(0,0,20,20),200]];

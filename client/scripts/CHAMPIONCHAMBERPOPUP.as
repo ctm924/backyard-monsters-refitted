@@ -26,7 +26,7 @@ package
       
       public function CHAMPIONCHAMBERPOPUP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._guardChamber = GLOBAL._bChamber as CHAMPIONCHAMBER;
          this._slots = new Vector.<ChampionChamberFrozen>();
          tTitle.htmlText = KEYS.Get("chamber_title");
@@ -247,6 +247,6 @@ class ChampionSlot
    
    public function ChampionSlot()
    {
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
    }
 }

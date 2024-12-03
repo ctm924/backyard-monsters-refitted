@@ -9,7 +9,7 @@ package
       
       public function BasePlannerPopup_ToolsButton_Move()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

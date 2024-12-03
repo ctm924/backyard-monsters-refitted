@@ -30,7 +30,7 @@ package com.smartfoxserver.v2.requests
       
       public function RoomSettings(param1:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._name = param1;
          this._password = "";
          this._isGame = false;

@@ -12,7 +12,7 @@ package gs.plugins
       
       public function BezierThroughPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "bezierThrough";
       }
       

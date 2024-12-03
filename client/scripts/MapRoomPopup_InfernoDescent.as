@@ -15,7 +15,7 @@ package
       
       public function MapRoomPopup_InfernoDescent()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(0,this.frame1);
       }
       

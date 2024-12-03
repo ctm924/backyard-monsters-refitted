@@ -24,7 +24,7 @@ package
       
       public function MapRoomPopup_LostMainBase_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

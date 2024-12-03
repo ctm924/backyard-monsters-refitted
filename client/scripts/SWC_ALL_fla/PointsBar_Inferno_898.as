@@ -20,7 +20,7 @@ package SWC_ALL_fla
       
       public function PointsBar_Inferno_898()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addFrameScript(0,this.frame1);
       }
       

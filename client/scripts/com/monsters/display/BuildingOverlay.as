@@ -46,7 +46,7 @@ package com.monsters.display
       
       public function BuildingOverlay()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Setup(param1:BFOUNDATION) : void

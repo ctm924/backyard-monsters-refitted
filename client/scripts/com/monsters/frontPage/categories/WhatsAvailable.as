@@ -8,7 +8,7 @@ package com.monsters.frontPage.categories
       
       public function WhatsAvailable()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          priority = 3;
          name = "What\'s Available";
          _doesViewRepeatedly = false;

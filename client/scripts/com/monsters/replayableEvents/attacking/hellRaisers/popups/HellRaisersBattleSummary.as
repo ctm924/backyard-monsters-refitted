@@ -21,7 +21,7 @@ package com.monsters.replayableEvents.attacking.hellRaisers.popups
       public function HellRaisersBattleSummary(param1:Boolean, param2:uint)
       {
          var _loc3_:String = null;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_graphic = new HellRaisersBattleSummary_CLIP();
          if(param1)
          {

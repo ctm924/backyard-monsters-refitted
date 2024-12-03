@@ -10,7 +10,7 @@ package com.monsters.replayableEvents.attackDefend.brukkargWar.rewards
       
       public function SpurtzCannonReward2()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override protected function onApplication() : void

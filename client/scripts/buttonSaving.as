@@ -13,7 +13,7 @@ package
       
       public function buttonSaving()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addEventListener(MouseEvent.MOUSE_OVER,this.Over);
          addEventListener(MouseEvent.MOUSE_OUT,this.Out);
          addEventListener(Event.ENTER_FRAME,this.Tick);

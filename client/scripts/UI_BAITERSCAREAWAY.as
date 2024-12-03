@@ -9,7 +9,7 @@ package
       
       public function UI_BAITERSCAREAWAY(param1:Boolean = true)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(param1)
          {
             bReturn.SetupKey("bait_scareaway");

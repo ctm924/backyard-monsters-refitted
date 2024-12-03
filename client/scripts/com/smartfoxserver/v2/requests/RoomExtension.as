@@ -12,7 +12,7 @@ package com.smartfoxserver.v2.requests
       
       public function RoomExtension(param1:String, param2:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._id = param1;
          this._className = param2;
          this._propertiesFile = "";

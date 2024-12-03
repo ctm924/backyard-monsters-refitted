@@ -41,7 +41,7 @@ package
          var _loc10_:MovieClip = null;
          var _loc11_:MovieClip = null;
          var _loc12_:MovieClip = null;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.setupSubscriptions(HATCHERYCC.queueLimit > HATCHERYCC.DEFAULT_QUEUE_LIMIT);
          bSpeedup.tName.htmlText = "<b>" + KEYS.Get("btn_speedup") + "</b>";
          bSpeedup.mouseChildren = false;

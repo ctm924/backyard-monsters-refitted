@@ -104,7 +104,7 @@ package com.smartfoxserver.v2.requests
       
       public function BaseRequest(param1:int)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._sfso = SFSObject.newInstance();
          this._targetController = 0;
          this._isEncrypted = false;

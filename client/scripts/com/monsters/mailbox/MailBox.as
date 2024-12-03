@@ -20,7 +20,7 @@ package com.monsters.mailbox
       
       public function MailBox()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          instance = this;
       }
       

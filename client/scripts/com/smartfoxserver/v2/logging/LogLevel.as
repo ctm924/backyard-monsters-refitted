@@ -14,7 +14,7 @@ package com.smartfoxserver.v2.logging
       
       public function LogLevel()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function fromString(param1:int) : String

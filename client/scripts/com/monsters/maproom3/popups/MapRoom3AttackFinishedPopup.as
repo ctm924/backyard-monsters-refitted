@@ -13,7 +13,7 @@ package com.monsters.maproom3.popups
       
       public function MapRoom3AttackFinishedPopup(param1:SingletonLock)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function get instance() : MapRoom3AttackFinishedPopup

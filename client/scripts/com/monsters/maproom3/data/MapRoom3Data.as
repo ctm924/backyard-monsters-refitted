@@ -62,7 +62,7 @@ package com.monsters.maproom3.data
       {
          this.m_AllianceDataById = new Dictionary();
          this.m_ExpiryTimeByCellId = new Dictionary();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(serverData == null)
          {
             serverData = GenerateDefaultMapData();

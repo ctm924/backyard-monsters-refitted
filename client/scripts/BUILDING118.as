@@ -37,7 +37,7 @@ package
       {
          this._gunballs = [];
          this._trail = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _frameNumber = 0;
          _type = 118;
          _top = 15;

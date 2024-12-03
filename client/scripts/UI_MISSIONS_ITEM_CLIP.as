@@ -22,7 +22,7 @@ package
       
       public function UI_MISSIONS_ITEM_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

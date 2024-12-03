@@ -10,7 +10,7 @@ package com.smartfoxserver.v2.entities
       
       public function SFSConstants()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          throw new Error("This class should not be instantiated");
       }
    }

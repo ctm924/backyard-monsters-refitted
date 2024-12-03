@@ -26,7 +26,7 @@ package gs.plugins
       public function BezierPlugin()
       {
          this._future = {};
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "bezier";
          this.overwriteProps = [];
       }

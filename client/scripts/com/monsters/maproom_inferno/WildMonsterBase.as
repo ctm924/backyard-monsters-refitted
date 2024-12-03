@@ -63,7 +63,7 @@ package com.monsters.maproom_inferno
       
       public function WildMonsterBase()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.popUp = new MapBasePopup();
          this.popUp.title_txt.htmlText = "<b>" + KEYS.Get("map_options") + "</b>";
          this.popUp.x = 21;

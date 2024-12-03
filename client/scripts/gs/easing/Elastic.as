@@ -8,7 +8,7 @@ package gs.easing
       
       public function Elastic()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function easeIn(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 0, param6:Number = 0) : Number

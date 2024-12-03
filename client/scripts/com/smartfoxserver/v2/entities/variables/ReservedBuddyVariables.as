@@ -12,7 +12,7 @@ package com.smartfoxserver.v2.entities.variables
       
       public function ReservedBuddyVariables()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

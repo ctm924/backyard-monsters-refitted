@@ -24,7 +24,7 @@ package gs
       
       public function OverwriteManager()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function init(param1:int = 2) : int

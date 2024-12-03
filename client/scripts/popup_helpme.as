@@ -16,7 +16,7 @@ package
       
       public function popup_helpme()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

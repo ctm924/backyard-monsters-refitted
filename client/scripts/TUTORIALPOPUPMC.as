@@ -25,7 +25,7 @@ package
       
       public function TUTORIALPOPUPMC(param1:int = 0, param2:int = 0)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          mcButton.addEventListener(MouseEvent.CLICK,TUTORIAL.Advance);
          mcButton.Highlight = true;
          mcBlocker.mouseEnabled = true;

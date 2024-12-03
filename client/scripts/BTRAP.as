@@ -24,7 +24,7 @@ package
       
       public function BTRAP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _fired = false;
          this._retarget = 0;
          _range = 20;

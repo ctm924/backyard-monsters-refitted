@@ -14,7 +14,7 @@ package gs.plugins
       
       public function TransformAroundCenterPlugin()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.propName = "transformAroundCenter";
       }
       

@@ -18,7 +18,7 @@ package
       
       public function popup_aibase_failure()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

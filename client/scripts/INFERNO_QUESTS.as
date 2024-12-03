@@ -761,7 +761,7 @@ package
       
       public function INFERNO_QUESTS()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function QuestPopup(param1:String, param2:String, param3:String, param4:String, param5:String) : void

@@ -18,7 +18,7 @@ package
       
       public function BUILDING15()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 15;
          this._capacity = 0;
          this._housing = {};

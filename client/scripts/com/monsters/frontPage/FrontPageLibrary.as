@@ -41,7 +41,7 @@ package com.monsters.frontPage
       
       public function FrontPageLibrary()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function initialize() : void

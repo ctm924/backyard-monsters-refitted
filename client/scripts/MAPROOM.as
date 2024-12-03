@@ -35,7 +35,7 @@ package
        
       public function MAPROOM()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Setup() : void

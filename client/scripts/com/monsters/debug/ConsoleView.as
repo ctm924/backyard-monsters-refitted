@@ -66,7 +66,7 @@ package com.monsters.debug
          this._outputBitmap = new Bitmap(new BitmapData(640,480,false,0));
          this.glyphCache = new GlyphCache();
          this.logCache = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.layout();
          addEventListener(Event.ADDED_TO_STAGE,this.addedToStage);
       }
@@ -459,7 +459,7 @@ class GlyphCache
    
    public function GlyphCache()
    {
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
       this._textField.setTextFormat(this._textFormat);
       this._textField.defaultTextFormat = this._textFormat;
    }
@@ -531,6 +531,6 @@ class Glyph
    
    public function Glyph()
    {
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
    }
 }

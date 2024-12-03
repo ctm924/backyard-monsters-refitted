@@ -8,7 +8,7 @@ package com.cc.tests
       
       public function ABTest()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function isInTestGroup(param1:String, param2:int) : Boolean

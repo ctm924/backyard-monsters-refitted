@@ -113,7 +113,7 @@ package com.monsters.event_store
       
       public function EventStorePrizeData()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       internal static function FindEventStorePrizeData(param1:String) : Object

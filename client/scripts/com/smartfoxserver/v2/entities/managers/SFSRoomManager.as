@@ -24,7 +24,7 @@ package com.smartfoxserver.v2.entities.managers
       
       public function SFSRoomManager(param1:SmartFox)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._groups = new Array();
          this._roomsById = new HashMap();
          this._roomsByName = new HashMap();

@@ -13,7 +13,7 @@ package com.smartfoxserver.v2.util
       
       public function ConfigLoader()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function loadConfig(param1:String) : void

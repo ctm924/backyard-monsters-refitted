@@ -100,7 +100,7 @@ package com.monsters.maproom3
          var _loc7_:Vector.<Bookmark> = null;
          var _loc9_:Vector.<Bookmark> = null;
          this.m_BookmarksPopup = new BookmarksPopup();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_ResourcesDisplay = new MapRoom3ResourcesDisplay();
          this.m_ResourcesDisplay.mouseEnabled = false;
          this.m_ResourcesDisplay.mouseChildren = false;

@@ -107,7 +107,7 @@ package com.monsters.maproom3
          this.m_MouseoverInfo = new MapRoom3CellMouseover();
          this.m_CenterPoint = new Point();
          this.m_CenterPointForLoading = new Point();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_MapData = param1;
          this.m_ScrollingCanvas = new Sprite();
          this.m_ScrollingCanvas.mouseEnabled = false;

@@ -15,7 +15,7 @@ package com.monsters.creep_types
       public function CreepUpgrade()
       {
          this.m_UpgradeProps = new CreepProps();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function get upgradePuttyCost() : uint

@@ -11,7 +11,7 @@ package com.monsters.maproom_inferno
       
       public function MiniMapInferno_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

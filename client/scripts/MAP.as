@@ -133,7 +133,7 @@ package
          var rect:Rectangle = null;
          var efxbmp:Bitmap = null;
          var texture:String = param1;
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _instance = this;
          try
          {

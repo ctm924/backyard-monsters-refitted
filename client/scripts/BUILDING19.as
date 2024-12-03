@@ -33,7 +33,7 @@ package
       
       public function BUILDING19()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 19;
          this._frameNumber = 0;
          _footprint = [new Rectangle(0,0,80,80)];

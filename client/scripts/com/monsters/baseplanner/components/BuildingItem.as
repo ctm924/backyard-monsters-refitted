@@ -43,7 +43,7 @@ package com.monsters.baseplanner.components
       
       public function BuildingItem(param1:PlannerNode)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.node = param1;
          mc = new BasePlannerPopup_DisplayItem_Building();
          addChild(mc);

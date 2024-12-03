@@ -239,7 +239,7 @@ package com.monsters.monsters
          this._attackComponents = new Vector.<Component>();
          this._damagePerSecond = new SecNum(0);
          this._tmpPoint = new Point(0,0);
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._id = GLOBAL.NextCreepID().toString();
          this._rasterPt = new Point();
          this._shadowPt = new Point();

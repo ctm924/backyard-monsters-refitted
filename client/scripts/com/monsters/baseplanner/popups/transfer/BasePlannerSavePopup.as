@@ -14,7 +14,7 @@ package com.monsters.baseplanner.popups.transfer
       
       public function BasePlannerSavePopup()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          tTitle.htmlText = KEYS.Get("basePlanner_savetitle");
       }
       

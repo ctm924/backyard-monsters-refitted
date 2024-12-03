@@ -29,7 +29,7 @@ package com.monsters.ai
             bm = new Bitmap(param2);
             mcImage.addChild(bm);
          };
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          addEventListener(Event.ADDED_TO_STAGE,this.onAdd);
          sendNow.addEventListener(MouseEvent.CLICK,this.sendDown);
          sendNow.SetupKey("ai_engage_btn");

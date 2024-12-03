@@ -18,7 +18,7 @@ package
       
       public function popup_mr2tutorial()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

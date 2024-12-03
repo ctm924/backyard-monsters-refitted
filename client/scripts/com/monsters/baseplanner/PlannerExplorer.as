@@ -33,7 +33,7 @@ package com.monsters.baseplanner
       
       public function PlannerExplorer(param1:Vector.<PlannerNode>)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._inventoryData = param1;
          this._canvas = new Sprite();
          this.addChild(this._canvas);

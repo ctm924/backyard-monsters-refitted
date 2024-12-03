@@ -18,7 +18,7 @@ package as3reflect
       
       public function MetadataUtils()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function getFromString(param1:String) : XML

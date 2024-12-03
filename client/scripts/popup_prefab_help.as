@@ -8,7 +8,7 @@ package
       
       public function popup_prefab_help()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          b1.SetupKey("newmap_sk_btn");
          b1.Highlight = true;
          b1.addEventListener(MouseEvent.CLICK,this.Next);

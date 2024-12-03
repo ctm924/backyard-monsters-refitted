@@ -36,7 +36,7 @@ package
          var _loc9_:int = 0;
          var _loc10_:MovieClip = null;
          this.MONSTERSLOTSIZE = new Rectangle(0,0,65,50);
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          title_txt.htmlText = KEYS.Get(GLOBAL._bHatchery._buildingProps.name);
          bSpeedup.tName.htmlText = "<b>" + KEYS.Get("btn_speedup") + "</b>";
          bSpeedup.mouseChildren = false;

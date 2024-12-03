@@ -13,7 +13,7 @@ package com.monsters.monsters.components.abilities
       
       public function GlavesOnAttack(param1:uint)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_amountOfGlaves = param1;
       }
       

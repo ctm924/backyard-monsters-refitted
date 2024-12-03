@@ -66,7 +66,7 @@ package com.smartfoxserver.v2.controllers
       
       public function SystemController(param1:BitSwarmClient)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.bitSwarm = param1;
          this.sfs = param1.sfs;
          this.requestHandlers = new Object();

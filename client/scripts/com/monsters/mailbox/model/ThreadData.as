@@ -50,7 +50,7 @@ package com.monsters.mailbox.model
       
       public function ThreadData(param1:Object)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.Setup(param1);
       }
       

@@ -22,7 +22,7 @@ package com.smartfoxserver.v2.entities.variables
       
       public function VariableType()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          throw new Error("This class is not instantiable");
       }
       

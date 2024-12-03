@@ -16,7 +16,7 @@ package com.monsters.monsters.components.abilities
       
       public function DeathSplit(param1:MonsterBase, param2:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._target = param1;
          this._target.addEventListener(MonsterBase.k_DEATH_EVENT,this.split);
          this._splitType = param2;

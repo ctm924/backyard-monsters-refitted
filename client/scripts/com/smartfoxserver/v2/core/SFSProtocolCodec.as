@@ -35,7 +35,7 @@ package com.smartfoxserver.v2.core
       
       public function SFSProtocolCodec(param1:IoHandler, param2:BitSwarmClient)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._ioHandler = param1;
          this.log = Logger.getInstance();
          this.bitSwarm = param2;

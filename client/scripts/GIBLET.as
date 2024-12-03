@@ -29,7 +29,7 @@ package
       
       public function GIBLET()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function init(param1:int, param2:Point, param3:Point, param4:Number, param5:Number, param6:Number) : void

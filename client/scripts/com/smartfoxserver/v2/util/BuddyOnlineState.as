@@ -12,7 +12,7 @@ package com.smartfoxserver.v2.util
       
       public function BuddyOnlineState()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          throw new Error("This class should not be instantiated");
       }
    }

@@ -9,7 +9,7 @@ package
       
       public function building111hit()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

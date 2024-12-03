@@ -18,7 +18,7 @@ package com.smartfoxserver.v2.util
       
       public function ClientDisconnectionReason()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function getReason(param1:int) : String

@@ -9,7 +9,7 @@ package
       
       public function bubblepopup4()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.mouseEnabled = false;
          this.mouseChildren = false;
       }

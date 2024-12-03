@@ -44,7 +44,7 @@ package com.monsters.replayableEvents
          this.eventText_tLabel = ["tLabel","tLabel"];
          this.eventText_barProgressTxt = ["fp_infobar_progressbar","fp_infobar_progressbar"];
          this.eventText_bActionTxt = ["btn_info","btn_info"];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function get eventUI() : DisplayObject

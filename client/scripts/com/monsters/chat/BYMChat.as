@@ -94,7 +94,7 @@ package com.monsters.chat
       public function BYMChat(param1:ChatBox, param2:String)
       {
          this.messageQueue = new Array();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.chatBox = param1;
          addChild(param1 as MovieClip);
          param1.addEventListener(KeyboardEvent.KEY_DOWN,this.keyboardEventHandler);

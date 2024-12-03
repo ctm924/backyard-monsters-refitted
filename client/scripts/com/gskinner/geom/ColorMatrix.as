@@ -12,7 +12,7 @@ package com.gskinner.geom
       
       public function ColorMatrix(param1:Array = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          param1 = this.fixMatrix(param1);
          this.copyMatrix(param1.length == LENGTH ? param1 : IDENTITY_MATRIX);
       }

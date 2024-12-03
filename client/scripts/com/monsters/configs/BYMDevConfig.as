@@ -23,6 +23,6 @@ final class InstanceEnforcer
    
    public function InstanceEnforcer()
    {
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
    }
 }

@@ -47,7 +47,7 @@ package
       
       public function frame1()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.Setup(true,false,false);
       }
       

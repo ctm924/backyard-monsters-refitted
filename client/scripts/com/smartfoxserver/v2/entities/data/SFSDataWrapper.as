@@ -10,7 +10,7 @@ package com.smartfoxserver.v2.entities.data
       
       public function SFSDataWrapper(param1:int, param2:*)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._type = param1;
          this._data = param2;
       }

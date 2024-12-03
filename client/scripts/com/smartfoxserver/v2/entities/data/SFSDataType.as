@@ -48,7 +48,7 @@ package com.smartfoxserver.v2.entities.data
       
       public function SFSDataType()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function fromId(param1:int) : String

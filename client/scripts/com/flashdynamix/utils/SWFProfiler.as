@@ -56,7 +56,7 @@ package com.flashdynamix.utils
       
       public function SWFProfiler()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function init(param1:Stage, param2:InteractiveObject = null) : void
@@ -270,7 +270,7 @@ class ProfilerContent extends Sprite
    public function ProfilerContent()
    {
       var _loc1_:TextFormat = null;
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
       this.fps = new Shape();
       this.mb = new Shape();
       this.box = new Shape();

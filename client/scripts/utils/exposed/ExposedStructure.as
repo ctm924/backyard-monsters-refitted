@@ -17,7 +17,7 @@ package utils.exposed
       
       public function ExposedStructure()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_Definition = ExposedDefinitionManager.instance.FindOrCacheExposedDefinition(this);
       }
       

@@ -38,7 +38,7 @@ package
       
       public function BRESOURCE()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function AdjustProduction(param1:IMapRoomCell, param2:int) : int

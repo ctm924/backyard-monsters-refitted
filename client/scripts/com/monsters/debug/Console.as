@@ -24,7 +24,7 @@ package com.monsters.debug
       
       public function Console()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function initialize(param1:Stage) : void

@@ -8,7 +8,7 @@ package utils.debug
       
       public function Warning()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function Show(param1:String, param2:Class) : void

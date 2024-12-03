@@ -14,7 +14,7 @@ package com.monsters.input
       
       public function KeyboardInputHandler(param1:SingletonLock)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       protected static function get singletonLock() : SingletonLock

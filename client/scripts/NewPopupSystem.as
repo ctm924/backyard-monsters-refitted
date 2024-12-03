@@ -24,7 +24,7 @@ package
       
       public function NewPopupSystem()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function get dialogShowing() : Boolean
@@ -244,6 +244,6 @@ final class RequireData
    
    public function RequireData()
    {
-      super();
+      var __transpiler_comment__:String = "Removed empty super call";
    }
 }

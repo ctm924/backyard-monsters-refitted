@@ -8,7 +8,7 @@ package
       
       public function STOREPOPUP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Hide(param1:MouseEvent = null) : void

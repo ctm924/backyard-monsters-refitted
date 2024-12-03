@@ -134,7 +134,7 @@ package com.monsters.missions
             "scrollerX":347,
             "ignoreBtnX":315
          };
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          frame.tTitle.htmlText = KEYS.Get("quests_title");
          this._CollectedMissions = {};
          this._CompletedMissions = {};

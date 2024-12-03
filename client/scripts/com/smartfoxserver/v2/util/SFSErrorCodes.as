@@ -8,7 +8,7 @@ package com.smartfoxserver.v2.util
       
       public function SFSErrorCodes()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          throw new Error("This class cannot be instantiated. Please check the documentation for more details on its usage");
       }
       

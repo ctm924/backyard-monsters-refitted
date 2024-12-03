@@ -6,7 +6,7 @@ package com.monsters.frontPage.categories
       
       public function Promotions()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          name = "Promotions";
          priority = 1;
          _doesViewRepeatedly = false;

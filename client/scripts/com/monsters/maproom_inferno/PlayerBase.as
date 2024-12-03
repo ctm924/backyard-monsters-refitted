@@ -36,7 +36,7 @@ package com.monsters.maproom_inferno
          onLoadError = function(param1:IOErrorEvent):void
          {
          };
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.data = {};
          this.data.baseid = new SecNum(Number(baseID));
          this.data.baseseed = new SecNum(Number(baseSeed));

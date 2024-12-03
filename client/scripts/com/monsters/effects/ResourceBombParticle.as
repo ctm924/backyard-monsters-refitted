@@ -52,7 +52,7 @@ package com.monsters.effects
       
       public function ResourceBombParticle(param1:MovieClip, param2:MovieClip, param3:Point, param4:ResourceBomb, param5:String, param6:int, param7:int)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.mctop = param1;
          this.mcbottom = param2;
          this.m_position = param3;

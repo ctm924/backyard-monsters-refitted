@@ -12,7 +12,7 @@ package
       
       public function buttonMusic()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          gotoAndStop(1);
          addEventListener(MouseEvent.CLICK,this.Click);
          addEventListener(MouseEvent.MOUSE_OVER,this.Over);

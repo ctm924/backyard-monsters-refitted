@@ -45,7 +45,7 @@ package com.monsters.projectiles
       public function Projectilev2()
       {
          this.m_components = new Vector.<ProjectileComponent>();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function get rasterData() : RasterData

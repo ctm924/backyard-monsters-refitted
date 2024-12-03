@@ -31,7 +31,7 @@ package
       
       public function BUILDINGOPTIONSPOPUP(param1:String = "info", param2:int = 0)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._doStreamPost = false;
          mcCBBG.visible = false;
          mcInfoCB.visible = false;

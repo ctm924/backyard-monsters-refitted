@@ -75,7 +75,7 @@ package
       
       public function BTOWER()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._priority = 1;
          this._retarget = 0;
          attackFlags = Targeting.getOldStyleTargets(0);

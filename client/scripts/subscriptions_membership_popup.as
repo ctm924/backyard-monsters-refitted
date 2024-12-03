@@ -22,7 +22,7 @@ package
       
       public function subscriptions_membership_popup()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -23,7 +23,7 @@ package com.monsters.maproom3
       
       public function MapRoom3CellMouseoverButton(param1:BitmapData, param2:BitmapData, param3:String)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_ToolTip = param3;
          buttonMode = true;
          this.m_BackgroundImage = new Bitmap(MapRoom3AssetCache.instance.GetAsset(MapRoom3AssetCache.MOUSEOVER_BUTTON_BACKGROUND));

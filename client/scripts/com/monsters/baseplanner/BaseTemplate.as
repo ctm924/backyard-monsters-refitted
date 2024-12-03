@@ -14,7 +14,7 @@ package com.monsters.baseplanner
       
       public function BaseTemplate(param1:String = null, param2:Vector.<BaseTemplateNode> = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.name = !!param1 ? param1 : "";
          if(param2)
          {

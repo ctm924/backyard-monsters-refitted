@@ -9,7 +9,7 @@ package
       
       public function popup_bg()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

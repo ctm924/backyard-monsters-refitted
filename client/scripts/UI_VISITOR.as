@@ -35,7 +35,7 @@ package
       
       public function UI_VISITOR()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          s_mc = mc;
          if(GLOBAL.mode == GLOBAL.e_BASE_MODE.ATTACK || GLOBAL.mode == GLOBAL.e_BASE_MODE.WMATTACK)
          {

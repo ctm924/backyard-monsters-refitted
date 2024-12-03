@@ -16,7 +16,7 @@ package com.monsters.effects.smoke
       
       public function SmokeParticle()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -14,7 +14,7 @@ package utils.exposed
       
       public function ExposedReference(param1:ExposedStructure, param2:ExposedAccessor, param3:String, param4:int = -1)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.m_ExposedStructure = param1;
          this.m_ExposedAccessor = param2;
          this.m_ReferencedObjectId = param3;

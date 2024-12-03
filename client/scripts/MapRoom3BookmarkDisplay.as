@@ -20,7 +20,7 @@ package
       
       public function MapRoom3BookmarkDisplay()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

@@ -14,7 +14,7 @@ package
       
       public function CATAPULTPOPUP_view()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

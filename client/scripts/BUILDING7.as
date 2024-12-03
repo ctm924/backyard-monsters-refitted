@@ -8,7 +8,7 @@ package
       
       public function BUILDING7()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 7;
          _footprint = [new Rectangle(0,0,30,30)];
          _gridCost = [[new Rectangle(0,0,30,30),10]];

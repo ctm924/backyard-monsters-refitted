@@ -6,7 +6,7 @@ package com.monsters.frontPage.categories
       
       public function UnderusedFeatures()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          priority = 4;
          name = "Underused Feature Reminders";
       }

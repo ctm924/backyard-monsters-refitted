@@ -13,7 +13,7 @@ package
       
       public function ParticleVacuumLoot(param1:BFOUNDATION, param2:int, param3:int)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          if(!GLOBAL._catchup)
          {
             this._building = param1;

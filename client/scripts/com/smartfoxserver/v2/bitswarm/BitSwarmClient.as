@@ -65,7 +65,7 @@ package com.smartfoxserver.v2.bitswarm
       
       public function BitSwarmClient(param1:SmartFox = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._controllers = {};
          this._sfs = param1;
          this._connected = false;

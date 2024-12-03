@@ -56,7 +56,7 @@ package com.monsters.baseplanner
       
       public function PlannerNode(param1:BFOUNDATION, param2:Number = 0, param3:Number = 0, param4:int = 0)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.building = param1;
          this.x = param2;
          this.y = param3;

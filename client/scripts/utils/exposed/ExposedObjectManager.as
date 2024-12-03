@@ -20,7 +20,7 @@ package utils.exposed
       {
          this.m_ReferenceableObjects = new Dictionary();
          this.m_ReferencesToResolve = new Vector.<ExposedReference>();
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public static function get instance() : ExposedObjectManager

@@ -30,7 +30,7 @@ package
       
       public function BSTORAGE()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       override public function Loot(param1:int) : uint

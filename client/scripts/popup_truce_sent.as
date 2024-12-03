@@ -22,7 +22,7 @@ package
       
       public function popup_truce_sent()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

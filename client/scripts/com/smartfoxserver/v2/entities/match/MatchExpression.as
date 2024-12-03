@@ -21,7 +21,7 @@ package com.smartfoxserver.v2.entities.match
       
       public function MatchExpression(param1:String, param2:IMatcher, param3:*)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._varName = param1;
          this._condition = param2;
          this._value = param3;

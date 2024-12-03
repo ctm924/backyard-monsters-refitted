@@ -6,7 +6,7 @@ package
       
       public function ReferencedExposedStructures()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       internal static function Include() : void

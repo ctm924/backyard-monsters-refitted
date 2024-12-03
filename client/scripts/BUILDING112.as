@@ -13,7 +13,7 @@ package
       
       public function BUILDING112()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = 112;
          _footprint = [new Rectangle(0,0,130,130)];
          _gridCost = [[new Rectangle(0,0,130,130),10],[new Rectangle(10,10,110,110),200]];

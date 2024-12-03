@@ -14,7 +14,7 @@ package com.smartfoxserver.v2.requests
       
       public function RoomPermissions()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function get allowNameChange() : Boolean

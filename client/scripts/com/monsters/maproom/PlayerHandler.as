@@ -19,7 +19,7 @@ package com.monsters.maproom
       
       public function PlayerHandler()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function configure(param1:*) : Object

@@ -20,7 +20,7 @@ package com.monsters.maproom_inferno.views
       
       public function ListViewArrow()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.addEventListener(Event.ENTER_FRAME,this.Wobble);
       }
       

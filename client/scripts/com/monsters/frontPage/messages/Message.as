@@ -33,7 +33,7 @@ package com.monsters.frontPage.messages
       
       public function Message(param1:String, param2:String, param3:String = null, param4:String = null, param5:String = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this.title = KEYS.Get(param1);
          this.body = KEYS.Get(param2,this._bodyArguments);
          if(param3)

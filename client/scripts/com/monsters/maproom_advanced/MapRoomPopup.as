@@ -82,7 +82,7 @@ package com.monsters.maproom_advanced
          var r:Rectangle;
          var i:int;
          this._sortArray = [];
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          w = GLOBAL._ROOT.stage.stageWidth;
          h = GLOBAL.GetGameHeight();
          if(w > 1024)

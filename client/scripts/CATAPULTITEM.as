@@ -30,7 +30,7 @@ package
       
       public function CATAPULTITEM()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
       
       public function Setup(param1:String, param2:Boolean = false, param3:Boolean = false, param4:Boolean = true) : void

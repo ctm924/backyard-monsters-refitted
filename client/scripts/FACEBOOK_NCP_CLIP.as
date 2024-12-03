@@ -17,7 +17,7 @@ package
       
       public function FACEBOOK_NCP_CLIP()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

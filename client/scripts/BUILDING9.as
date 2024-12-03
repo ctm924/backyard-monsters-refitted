@@ -34,7 +34,7 @@ package
       
       public function BUILDING9()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          this._frameNumber = 0;
          _type = 9;
          this._blend = 0;

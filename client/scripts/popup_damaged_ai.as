@@ -24,7 +24,7 @@ package
       
       public function popup_damaged_ai()
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
       }
    }
 }

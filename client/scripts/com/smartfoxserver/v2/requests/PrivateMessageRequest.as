@@ -8,7 +8,7 @@ package com.smartfoxserver.v2.requests
       
       public function PrivateMessageRequest(param1:String, param2:int, param3:ISFSObject = null)
       {
-         super();
+         var __transpiler_comment__:String = "Removed empty super call";
          _type = GenericMessageType.PRIVATE_MSG;
          _message = param1;
          _recipient = param2;
