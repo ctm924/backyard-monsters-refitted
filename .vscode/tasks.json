@@ -55,6 +55,12 @@
 			},
 			"dependsOrder": "sequence",
 			"dependsOn": "Compile (Release)"
+		},
+		{
+			"label": "Watch AX3",
+			"type": "shell",
+			"command": "cd ax3 && ./watch.sh",
+			"problemMatcher": []
 		}
 	]
 }

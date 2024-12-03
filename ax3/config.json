@@ -1,6 +1,6 @@
 {
 	"src": "../client/scripts",
-	"hxout": "../client-haxe",
+	"hxout": "../client-haxe/src",
 	"swc": [
 		"../playerglobal.swc"
 	],
