@@ -2,7 +2,7 @@ package com.monsters.creep_types
 {
    import utils.exposed.ExposedStructure;
    
-   public class CreepProps extends ExposedStructure
+   public class CreepProps
    {
        
       
@@ -107,14 +107,5 @@ package com.monsters.creep_types
          this.m_TargetGroup = param1;
       }
       
-      override protected function _Init() : void
-      {
-         super._Init();
-      }
-      
-      override protected function _Destroy() : void
-      {
-         super._Destroy();
-      }
    }
 }

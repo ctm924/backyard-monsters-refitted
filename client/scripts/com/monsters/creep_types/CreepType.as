@@ -2,7 +2,7 @@ package com.monsters.creep_types
 {
    import utils.exposed.ExposedObject;
    
-   public class CreepType extends ExposedObject
+   public class CreepType
    {
        
       
@@ -176,7 +176,7 @@ package com.monsters.creep_types
          this.m_Stream = param1;
       }
       
-      override protected function _Init() : void
+      protected function _Init() : void
       {
          var _loc3_:CreepUpgrade = null;
          super._Init();
@@ -207,7 +207,7 @@ package com.monsters.creep_types
          }
       }
       
-      override protected function _Destroy() : void
+      protected function _Destroy() : void
       {
          CreepTypeManager.instance.DeregisterCreepType(this);
          this.trainingCosts.length = 0;

@@ -2,7 +2,7 @@ package com.monsters.creep_types
 {
    import utils.exposed.ExposedStructure;
    
-   public class CreepUpgrade extends ExposedStructure
+   public class CreepUpgrade
    {
        
       
@@ -46,16 +46,6 @@ package com.monsters.creep_types
       public function set upgradeProps(param1:CreepProps) : void
       {
          this.m_UpgradeProps = param1;
-      }
-      
-      override protected function _Init() : void
-      {
-         super._Init();
-      }
-      
-      override protected function _Destroy() : void
-      {
-         super._Destroy();
       }
    }
 }
