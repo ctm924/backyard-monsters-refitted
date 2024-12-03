@@ -1,7 +1,6 @@
 package
 {
    import com.cc.tests.ABTest;
-   import com.monsters.chat.Chat;
    import com.monsters.ui.*;
    import flash.display.MovieClip;
    import flash.display.StageDisplayState;
@@ -79,14 +78,6 @@ package
             UI_WORKERS.Setup();
          }
          _top.Setup();
-         if(Chat.flagsShouldChatExist() && Chat._bymChat._open)
-         {
-            Chat.initChat();
-         }
-         if(Chat.flagsShouldChatDisplay())
-         {
-            Chat.setChatPosition(GLOBAL._layerUI,10,300);
-         }
          _timers = new Array();
          _timers.push(_top.mcProtected);
          _timers.push(_top.mcReinforcements);
@@ -111,14 +102,6 @@ package
          _tutorial = GLOBAL._layerUI.addChild(new MovieClip()) as MovieClip;
          UI_BOTTOM.Setup();
          UI_BOTTOM.Hide();
-         if(Chat.flagsShouldChatExist() && Chat._bymChat._open)
-         {
-            Chat.initChat();
-         }
-         if(Chat.flagsShouldChatDisplay())
-         {
-            Chat.setChatPosition(GLOBAL._layerUI,10,300);
-         }
       }
       
       public static function Show(param1:String) : void
@@ -231,10 +214,6 @@ package
          else if(what == "warning" && _showWarning)
          {
             _showWarning = false;
-            if(Chat._bymChat)
-            {
-               Chat._bymChat.show();
-            }
             if(GLOBAL._render)
             {
                TweenLite.to(_warning.mc,0.5,{
@@ -252,10 +231,6 @@ package
             if(GLOBAL._layerUI.contains(_scareAway))
             {
                GLOBAL._layerUI.removeChild(_scareAway);
-               if(Chat._bymChat)
-               {
-                  Chat._bymChat.show();
-               }
                _scareAway = null;
             }
          }
@@ -407,14 +382,6 @@ package
                   {
                      _top.mcBuffHolder.visible = true;
                   }
-                  if(!Chat._chatInited || !Chat._bymChat.IsConnected)
-                  {
-                     Chat.initChat();
-                  }
-                  if(Chat._bymChat && Chat._chatInited && Chat._bymChat.IsConnected)
-                  {
-                     Chat._bymChat.toggleVisibleB();
-                  }
                }
                if(GLOBAL.mode != GLOBAL.e_BASE_MODE.BUILD && GLOBAL.mode != GLOBAL.e_BASE_MODE.IBUILD || !GLOBAL._flags.saveicon)
                {
@@ -547,10 +514,6 @@ package
             GLOBAL.RefreshScreen();
             _scareAway.x = GLOBAL._SCREEN.x + GLOBAL._SCREEN.width - _scareAway.mcBG.width - 10;
             _scareAway.y = GLOBAL._SCREENHUD.y - (_scareAway.mcBG.height + 10);
-         }
-         if(Chat._bymChat)
-         {
-            Chat._bymChat.position();
          }
          if(_debugWarningTxt)
          {

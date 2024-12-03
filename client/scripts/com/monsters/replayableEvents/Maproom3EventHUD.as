@@ -1,6 +1,5 @@
 package com.monsters.replayableEvents
 {
-   import com.monsters.chat.Chat;
    import com.monsters.display.ImageCache;
    import com.monsters.event_store.EventStorePopup;
    import com.monsters.maproom3.MapRoom3;
@@ -104,11 +103,6 @@ package com.monsters.replayableEvents
          if(Boolean(MapRoom3.mapRoom3WindowHUD) && Boolean(MapRoom3.mapRoom3WindowHUD.leftMenuButtonsBar))
          {
             y = MapRoom3.mapRoom3WindowHUD.leftMenuButtonsBar.y;
-            y -= this.height;
-         }
-         else if(Chat._bymChat && Chat._bymChat.chatBox && Boolean(Chat._bymChat.chatBox.background))
-         {
-            y = Chat._bymChat.y + Chat._bymChat.chatBox.background.y;
             y -= this.height;
          }
          else

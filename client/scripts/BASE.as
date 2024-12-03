@@ -11,7 +11,6 @@ package
    import com.monsters.baseplanner.BaseTemplate;
    import com.monsters.baseplanner.BaseTemplateNode;
    import com.monsters.baseplanner.PlannerTemplate;
-   import com.monsters.chat.Chat;
    import com.monsters.configs.BYMConfig;
    import com.monsters.debug.Console;
    import com.monsters.display.BuildingOverlay;
@@ -840,14 +839,7 @@ package
                {
                   _lastProcessed = _currentTime - 60 * 60 * 24 * 2;
                }
-               if(serverData.chatservers != null)
-               {
-                  Chat._chatServers = serverData.chatservers;
-               }
-               else
-               {
-                  Chat._chatServers = new Array();
-               }
+
                _lastSaveID = serverData.id;
                _baseSeed = serverData.baseseed;
                _loadedBaseID = serverData.baseid;
@@ -1206,14 +1198,6 @@ package
                CREATURELOCKER.Data(serverData.lockerdata);
                QUESTS.Data(serverData.quests);
                MONSTERBAITER.Setup(serverData.monsterbaiter);
-               if(serverData.chatenabled != null)
-               {
-                  Chat._chatEnabled = serverData.chatenabled;
-                  if(Chat.flagsShouldChatExist())
-                  {
-                     Chat.initChat();
-                  }
-               }
                if(serverData.stats.achievements)
                {
                   ACHIEVEMENTS.Data(serverData.stats.achievements);
@@ -5885,10 +5869,6 @@ package
          if(lvl.leveled)
          {
             BASE.Save();
-            if(Chat._bymChat)
-            {
-               Chat._bymChat.broadcastDisplayNameUpdate(lvl.level);
-            }
          }
          if(GLOBAL.mode == GLOBAL.e_BASE_MODE.BUILD)
          {

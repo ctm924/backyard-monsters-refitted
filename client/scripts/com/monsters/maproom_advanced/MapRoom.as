@@ -3,7 +3,6 @@ package com.monsters.maproom_advanced
    
    import com.cc.utils.SecNum;
    import com.monsters.alliances.ALLIANCES;
-   import com.monsters.chat.Chat;
    import com.monsters.effects.smoke.Smoke;
    import com.monsters.enums.EnumYardType;
    import com.monsters.mailbox.FriendPicker;
@@ -1170,10 +1169,6 @@ package com.monsters.maproom_advanced
             }
             if(GLOBAL._ROOT.stage.displayState == StageDisplayState.NORMAL)
             {
-               if(Chat._bymChat)
-               {
-                  Chat._bymChat.show();
-               }
                if(UI_BOTTOM._missions)
                {
                   UI_BOTTOM._missions.visible = true;
@@ -1181,10 +1176,6 @@ package com.monsters.maproom_advanced
             }
             else
             {
-               if(Chat._bymChat)
-               {
-                  Chat._bymChat.hide();
-               }
                if(UI_BOTTOM._missions)
                {
                   UI_BOTTOM._missions.visible = false;

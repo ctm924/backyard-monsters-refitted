@@ -1,6 +1,5 @@
 package com.monsters.replayableEvents
 {
-   import com.monsters.chat.Chat;
    import com.monsters.display.ImageCache;
    import flash.display.Bitmap;
    import flash.display.BitmapData;
@@ -229,10 +228,6 @@ package com.monsters.replayableEvents
          GLOBAL.RefreshScreen();
          x = int(GLOBAL._SCREEN.x + 5 + 30);
          y = int(GLOBAL._SCREEN.y + GLOBAL._SCREEN.height - mcHit.height - 10);
-         if(Chat._bymChat && Chat._bymChat.chatBox && Boolean(Chat._bymChat.chatBox.background))
-         {
-            y = int(Chat._bymChat.y + Chat._bymChat.chatBox.y + Chat._bymChat.chatBox.background.y - 53);
-         }
       }
       
       private function PhaseKey(param1:Array, param2:Boolean = true) : String

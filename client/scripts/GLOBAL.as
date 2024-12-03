@@ -5,7 +5,6 @@ package
    import com.computus.model.Timekeeper;
    import com.gskinner.utils.Rndm;
    import com.monsters.ai.WMBASE;
-   import com.monsters.chat.Chat;
    import com.monsters.configs.BYMConfig;
    import com.monsters.debug.Console;
    import com.monsters.display.ImageCache;
@@ -2080,10 +2079,6 @@ package
          if(UI_BOTTOM && UI_BOTTOM._missions && !UI_BOTTOM._missions._open)
          {
             _SCREENHUD = new Point(_SCREEN.x,_SCREEN.y + _SCREEN.height - 30 - 0);
-         }
-         if(Chat._chatInited && Chat._bymChat && !Chat._bymChat._open)
-         {
-            _SCREENHUDLEFT = new Point(_SCREEN.x,_SCREEN.y + _SCREEN.height - 30 - 0);
          }
          if(MAP._GROUND)
          {

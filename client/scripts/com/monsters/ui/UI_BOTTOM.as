@@ -1,6 +1,5 @@
 package com.monsters.ui
 {
-   import com.monsters.chat.Chat;
    import com.monsters.maproom3.MapRoom3;
    import com.monsters.maproom_manager.MapRoomManager;
    import com.monsters.missions.UI_MISSIONMENU;
@@ -170,13 +169,6 @@ package com.monsters.ui
          {
             _missions.visible = true;
          }
-         if(Chat.flagsShouldChatDisplay())
-         {
-            if(Chat._bymChat)
-            {
-               Chat._bymChat.show();
-            }
-         }
          if(MonsterMadness.infoBar)
          {
             MonsterMadness.addInfoBar();
@@ -190,13 +182,6 @@ package com.monsters.ui
          {
             _mc.bQuests.Alert = "";
             _mc.visible = false;
-         }
-         if(!Chat.flagsShouldChatDisplay())
-         {
-            if(Chat._bymChat)
-            {
-               Chat._bymChat.hide();
-            }
          }
          if(_nextwave)
          {

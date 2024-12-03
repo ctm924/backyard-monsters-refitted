@@ -1,6 +1,5 @@
 package com.monsters.maproom3
 {
-   import com.monsters.chat.Chat;
    import com.monsters.enums.EnumYardType;
    import com.monsters.maproom3.bookmarks.Bookmark;
    import com.monsters.maproom3.bookmarks.BookmarkDisplay;
@@ -360,10 +359,6 @@ package com.monsters.maproom3
             return;
          }
          this.m_LeftMenuButtonsBar.x = int(GLOBAL._SCREEN.x);
-         if(Chat._bymChat != null && Chat._bymChat.chatBox != null && Chat._bymChat.chatBox.background != null)
-         {
-            this.m_LeftMenuButtonsBar.y = int(Chat._bymChat.y + Chat._bymChat.chatBox.y + Chat._bymChat.chatBox.background.y - this.m_LeftMenuButtonsContainerBackground.height);
-         }
       }
       
       public function PositionRightMenuButtonsBar() : void

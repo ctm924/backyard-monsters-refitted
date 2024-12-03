@@ -1,6 +1,5 @@
 package com.monsters.replayableEvents.attacking.monsterMadness
 {
-   import com.monsters.chat.Chat;
    import com.monsters.display.ImageCache;
    import flash.display.Bitmap;
    import flash.display.BitmapData;
@@ -154,10 +153,6 @@ package com.monsters.replayableEvents.attacking.monsterMadness
          GLOBAL.RefreshScreen();
          x = int(GLOBAL._SCREEN.x + 5 + 30);
          y = int(GLOBAL._SCREEN.y + GLOBAL._SCREEN.height - mcHit.height - 10);
-         if(Boolean(Chat._bymChat) && Boolean(Chat._bymChat.chatBox.background))
-         {
-            y = int(Chat._bymChat.y + Chat._bymChat.chatBox.y + Chat._bymChat.chatBox.background.y - 53);
-         }
       }
    }
 }
