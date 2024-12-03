@@ -6,7 +6,7 @@ package gs
    import gs.plugins.*;
    import gs.utils.tween.*;
 
-   public class TweenMax extends TweenLite implements IEventDispatcher
+   public class TweenMax extends TweenLite
    {
       public static function to(param1:Object, param2:Number, param3:Object):TweenMax
       {
