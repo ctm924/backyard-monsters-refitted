@@ -2,11 +2,13 @@
 <project>
 	
 	<meta title="Backyard Monsters Refitted Client" package="com.bymrefitted." version="0.0.1" company="BYM Refitted" />
-	<app main="Main" path="Export" file="" />
+	<app main="Main" path="out" file="bymr-haxe" />
 	
 	<source path="src" />
 	
 	<haxelib name="openfl" />
+	<haxelib name="haxeui-core" />
+	<haxelib name="haxeui-openfl" />
 	
 	<assets path="Assets" rename="assets" />
 	
