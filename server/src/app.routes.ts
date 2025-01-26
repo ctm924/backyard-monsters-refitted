@@ -65,6 +65,11 @@ router.get(
   getNewMap
 );
 
+<<<<<<< HEAD
+
+// Load
+router.post("/base/load", auth, debugDataLog("Base load data"), baseLoad);
+=======
 /**
  * MapRoom setup
  * @name POST /api/:apiVersion/bm/getnewmap
@@ -75,6 +80,7 @@ router.post(
   debugDataLog("Posting to new maproom"),
   getNewMap
 );
+>>>>>>> 8c57251b3303dd077169e2a62ca8f9efd2d76698
 
 /**
  * Login route
@@ -98,6 +104,14 @@ router.post(
   register
 );
 
+<<<<<<< HEAD
+
+// Inferno
+router.post("/api/:apiVersion/bm/base/load", apiVersion, auth, debugDataLog("Inferno load data"), baseLoad);
+router.post("/api/:apiVersion/bm/base/infernomonsters", apiVersion, auth, debugDataLog("Load inferno monsters"), infernoMonsters);
+router.post("/api/:apiVersion/bm/base/save", apiVersion, auth, debugDataLog("Inferno save data"), baseSave);
+router.post("/api/:apiVersion/bm/base/updatesaved", auth, debugDataLog("Base updated save"), updateSaved);
+=======
 /**
  * Supported Languages
  * @name GET /api/:apiVersion/supportedLangs
@@ -108,6 +122,7 @@ router.get(
   debugDataLog("Getting supported languages"),
   supportedLangs
 );
+>>>>>>> 8c57251b3303dd077169e2a62ca8f9efd2d76698
 
 /**
  * Forgot password

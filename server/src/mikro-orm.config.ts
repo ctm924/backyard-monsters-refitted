@@ -1,12 +1,10 @@
-import { MikroORM } from "@mikro-orm/core";
-import { MariaDbDriver } from "@mikro-orm/mariadb";
-import path from "path";
-import { Save } from "./models/save.model";
-import { User } from "./models/user.model";
-import { WorldMapCell } from "./models/worldmapcell.model";
-import { World } from "./models/world.model";
-import { Env } from "./enums/Env";
-import { IncidentReport } from "./models/incidentreport";
+import { MikroORM  } from '@mikro-orm/core';
+import { MariaDbDriver } from '@mikro-orm/mariadb';
+import path from 'path';
+import { Save } from './models/save.model';
+import { User } from './models/user.model';
+import {WorldMapCell} from "./models/worldmapcell.model";
+import { DescentStatus } from './models/descentstatus.model';
 
 /**
  * Configuration for MikroORM.
@@ -19,8 +17,8 @@ import { IncidentReport } from "./models/incidentreport";
 const mikroOrmConfig = {
   type: "mariadb",
   allowGlobalContext: false,
-  entities: [User, Save, World, WorldMapCell, IncidentReport],
   debug: process.env.ENV !== Env.PROD,
+  entities: [Save, User, WorldMapCell, DescentStatus],
   dbName: process.env.DB_NAME,
   port: Number(process.env.DB_PORT),
   host: process.env.DB_HOST,

@@ -43,9 +43,12 @@ export const updateCredits = (save: Save, item: string, quantity: number) => {
     "IFD",
     "BUNK",
     "KIT",
+<<<<<<< HEAD:server/src/data/updateCredits.ts
+=======
     "QINVITE1",
     "QINVITE5",
     "QINVITE10"
+>>>>>>> 8c57251b3303dd077169e2a62ca8f9efd2d76698:server/src/services/base/updateCredits.ts
   ]);
   if (nonStoreItem.has(item)) {
     save.credits -= quantity;
@@ -57,13 +60,19 @@ export const updateCredits = (save: Save, item: string, quantity: number) => {
   if (!storeItem?.c) {
     errorLog("Not a store item! Add to non-store items list", item);
   }
-  let itemCost: number = storeItem.c[0];
-  if (storeItem.c.length > 1) {
-    // The item has a scaling cost depending on how many of that item the player currently owns
-    // We subtract 1 here since the item would've been already added to the player's save by the caller
-    const currentQuantity: number = save.storedata[item].q - 1;
-    itemCost = storeItem.c[currentQuantity];
-  }
 
-  save.credits -= itemCost * quantity;
+  // Temp error handling fix - inferno storeItems breaks without this
+  if (save.storedata[item] && save.storedata[item].q !== undefined) {
+    let itemCost: number = storeItem.c[0];
+    if (storeItem.c.length > 1) {
+      // The item has a scaling cost depending on how many of that item the player currently owns
+      // We subtract 1 here since the item would've been already added to the player's save by the caller
+      const currentQuantity: number = save.storedata[item].q - 1;
+      itemCost = storeItem.c[currentQuantity];
+    }
+
+    save.credits -= itemCost * quantity;
+  } else {
+    errorLog(`'q' property of save.storedata[${item}] is undefined`);
+  }
 };

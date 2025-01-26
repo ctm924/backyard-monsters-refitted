@@ -1,5 +1,36 @@
 import { Save } from "../../../models/save.model";
 import { ORMContext } from "../../../server";
+<<<<<<< HEAD
+import Savefiles, { getWMDefaultBase, getIWMDescentBase } from "../../../data/savefiles";
+import { getXPosition, getYPosition } from "./world";
+import { logging } from "../../../utils/logger";
+
+const iwm_descent = [201,202,203,204,205,206,207,208,209,210,211,212,213];
+
+export const getWildMonsterSave = (baseid: number, level: number = 10): Save => {
+    const fork = ORMContext.em.fork();
+    if (iwm_descent.includes(baseid)){
+        //logging(baseid.toString());
+        const defaultSave = getIWMDescentBase(baseid);
+        const save = fork.create(Save, {
+            ...defaultSave,
+            basename: "",
+            baseid: baseid.toString(),
+            basesaveid: baseid,
+        });
+        save.type = "iwm";
+        save.baseid = baseid.toString();
+        save.basesaveid = baseid;
+        save.level = iwm_descent.indexOf(baseid) + 1;
+        //logging(JSON.stringify(save));
+        return save;
+    }
+    const x = getXPosition(baseid);
+    const y = getYPosition(baseid);
+    const tribe = (x + y) % 4;
+    const world_level = 10;
+    const wmid = (tribe * 10) + 1
+=======
 import { Tribes } from "../../../enums/Tribes";
 import { legionnaire } from "../../../data/tribes/legionnaire";
 import { abunaki } from "../../../data/tribes/abunaki";
@@ -18,6 +49,7 @@ import { kozu } from "../../../data/tribes/kozu";
  */
 export const wildMonsterSave = (baseid: string) => {
   const baseId = parseInt(baseid);
+>>>>>>> 8c57251b3303dd077169e2a62ca8f9efd2d76698
 
   const cellX = Math.floor(baseId / 1000) % 1000;
   const cellY = baseId % 1000;
