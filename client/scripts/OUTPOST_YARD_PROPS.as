@@ -1,5 +1,6 @@
 package
 {
+   import com.cc.utils.SecNum;
    import com.monsters.siege.SiegeFactory;
    import com.monsters.siege.SiegeLab;
    import flash.geom.Point;
@@ -7,7 +8,6 @@ package
    
    public class OUTPOST_YARD_PROPS
    {
-      
       public static const _outpostProps:Array = [{
          "id":1,
          "group":1,
@@ -22,74 +22,74 @@ package
          "sale":0,
          "description":"twigsnapper_desc",
          "costs":[{
-            "r1":0,
-            "r2":750,
-            "r3":0,
-            "r4":0,
-            "time":15,
+            "r1":new SecNum(0),
+            "r2":new SecNum(750),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(15),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":1575,
-            "r3":0,
-            "r4":0,
-            "time":300,
+            "r1":new SecNum(0),
+            "r2":new SecNum(1575),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(300),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":3300,
-            "r3":0,
-            "r4":0,
-            "time":1200,
+            "r1":new SecNum(0),
+            "r2":new SecNum(3300),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(1200),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":6950,
-            "r3":0,
-            "r4":0,
-            "time":3600,
+            "r1":new SecNum(0),
+            "r2":new SecNum(6950),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(3600),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":14500,
-            "r3":0,
-            "r4":0,
-            "time":7200,
+            "r1":new SecNum(0),
+            "r2":new SecNum(14500),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(7200),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":30600,
-            "r3":0,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(0),
+            "r2":new SecNum(30600),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":64300,
-            "r3":0,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(0),
+            "r2":new SecNum(64300),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":135000,
-            "r3":0,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(0),
+            "r2":new SecNum(135000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":283600,
-            "r3":0,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(0),
+            "r2":new SecNum(283600),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":600000,
-            "r3":0,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(0),
+            "r2":new SecNum(600000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -168,74 +168,74 @@ package
          "sale":0,
          "description":"pebbleshiner_desc",
          "costs":[{
-            "r1":750,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":15,
+            "r1":new SecNum(750),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(15),
             "re":[[112,1,1]]
          },{
-            "r1":1575,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":300,
+            "r1":new SecNum(1575),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(300),
             "re":[[112,1,1]]
          },{
-            "r1":3300,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":1200,
+            "r1":new SecNum(3300),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(1200),
             "re":[[112,1,1]]
          },{
-            "r1":6950,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":3600,
+            "r1":new SecNum(6950),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(3600),
             "re":[[112,1,1]]
          },{
-            "r1":14500,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":7200,
+            "r1":new SecNum(14500),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(7200),
             "re":[[112,1,1]]
          },{
-            "r1":30600,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(30600),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":64300,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(64300),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":135000,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(135000),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":283600,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(283600),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":600000,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(600000),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -314,74 +314,74 @@ package
          "sale":0,
          "description":"puttysquisher_desc",
          "costs":[{
-            "r1":525,
-            "r2":224,
-            "r3":0,
-            "r4":0,
-            "time":20,
+            "r1":new SecNum(525),
+            "r2":new SecNum(224),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(20),
             "re":[[112,1,1]]
          },{
-            "r1":1102,
-            "r2":470,
-            "r3":0,
-            "r4":0,
-            "time":300,
+            "r1":new SecNum(1102),
+            "r2":new SecNum(470),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(300),
             "re":[[112,1,1]]
          },{
-            "r1":2315,
-            "r2":992,
-            "r3":0,
-            "r4":0,
-            "time":1200,
+            "r1":new SecNum(2315),
+            "r2":new SecNum(992),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(1200),
             "re":[[112,1,1]]
          },{
-            "r1":4862,
-            "r2":2086,
-            "r3":0,
-            "r4":0,
-            "time":3600,
+            "r1":new SecNum(4862),
+            "r2":new SecNum(2086),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(3600),
             "re":[[112,1,1]]
          },{
-            "r1":10210,
-            "r2":4375,
-            "r3":0,
-            "r4":0,
-            "time":7200,
+            "r1":new SecNum(10210),
+            "r2":new SecNum(4375),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(7200),
             "re":[[112,1,1]]
          },{
-            "r1":21441,
-            "r2":9190,
-            "r3":0,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(21441),
+            "r2":new SecNum(9190),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":45027,
-            "r2":19298,
-            "r3":0,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(45027),
+            "r2":new SecNum(19298),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":94557,
-            "r2":40524,
-            "r3":0,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(94557),
+            "r2":new SecNum(40524),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":198570,
-            "r2":85102,
-            "r3":0,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(198570),
+            "r2":new SecNum(85102),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":416997,
-            "r2":178716,
-            "r3":0,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(416997),
+            "r2":new SecNum(178716),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -460,74 +460,74 @@ package
          "sale":0,
          "description":"goofactory_desc",
          "costs":[{
-            "r1":247,
-            "r2":577,
-            "r3":0,
-            "r4":0,
-            "time":20,
+            "r1":new SecNum(247),
+            "r2":new SecNum(577),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(20),
             "re":[[112,1,1]]
          },{
-            "r1":520,
-            "r2":1212,
-            "r3":0,
-            "r4":0,
-            "time":300,
+            "r1":new SecNum(520),
+            "r2":new SecNum(1212),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(300),
             "re":[[112,1,1]]
          },{
-            "r1":1090,
-            "r2":2546,
-            "r3":0,
-            "r4":0,
-            "time":1200,
+            "r1":new SecNum(1090),
+            "r2":new SecNum(2546),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(1200),
             "re":[[112,1,1]]
          },{
-            "r1":2290,
-            "r2":5348,
-            "r3":0,
-            "r4":0,
-            "time":3600,
+            "r1":new SecNum(2290),
+            "r2":new SecNum(5348),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(3600),
             "re":[[112,1,1]]
          },{
-            "r1":4810,
-            "r2":11231,
-            "r3":0,
-            "r4":0,
-            "time":7200,
+            "r1":new SecNum(4810),
+            "r2":new SecNum(11231),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(7200),
             "re":[[112,1,1]]
          },{
-            "r1":10108,
-            "r2":23585,
-            "r3":0,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(10108),
+            "r2":new SecNum(23585),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":21227,
-            "r2":49529,
-            "r3":0,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(21227),
+            "r2":new SecNum(49529),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":44580,
-            "r2":104012,
-            "r3":0,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(44580),
+            "r2":new SecNum(104012),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":93600,
-            "r2":218427,
-            "r3":0,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(93600),
+            "r2":new SecNum(218427),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":196584,
-            "r2":458696,
-            "r3":0,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(196584),
+            "r2":new SecNum(458696),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -605,32 +605,32 @@ package
          "sale":0,
          "description":"flinger_desc",
          "costs":[{
-            "r1":10000,
-            "r2":10000,
-            "r3":5000,
-            "r4":0,
-            "time":900,
+            "r1":new SecNum(10000),
+            "r2":new SecNum(10000),
+            "r3":new SecNum(5000),
+            "r4":new SecNum(0),
+            "time":new SecNum(900),
             "re":[[112,1,1]]
          },{
-            "r1":64300,
-            "r2":64300,
-            "r3":32150,
-            "r4":0,
-            "time":10800,
+            "r1":new SecNum(64300),
+            "r2":new SecNum(64300),
+            "r3":new SecNum(32150),
+            "r4":new SecNum(0),
+            "time":new SecNum(10800),
             "re":[[112,1,1]]
          },{
-            "r1":283600,
-            "r2":283600,
-            "r3":141800,
-            "r4":0,
-            "time":32400,
+            "r1":new SecNum(283600),
+            "r2":new SecNum(283600),
+            "r3":new SecNum(141800),
+            "r4":new SecNum(0),
+            "time":new SecNum(32400),
             "re":[[112,1,1]]
          },{
-            "r1":1247840,
-            "r2":1247840,
-            "r3":623920,
-            "r4":0,
-            "time":97200,
+            "r1":new SecNum(1247840),
+            "r2":new SecNum(1247840),
+            "r3":new SecNum(623920),
+            "r4":new SecNum(0),
+            "time":new SecNum(97200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -745,25 +745,25 @@ package
          "sale":0,
          "description":"monsterjuicer_desc",
          "costs":[{
-            "r1":1000000,
-            "r2":1000000,
-            "r3":1000000,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(1000000),
+            "r2":new SecNum(1000000),
+            "r3":new SecNum(1000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1],[15,1,1]]
          },{
-            "r1":250000,
-            "r2":250000,
-            "r3":0,
-            "r4":0,
-            "time":21600,
+            "r1":new SecNum(250000),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(21600),
             "re":[[112,1,1],[15,1,1]]
          },{
-            "r1":500000,
-            "r2":500000,
-            "r3":0,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(500000),
+            "r2":new SecNum(500000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1],[15,1,1]]
          }],
          "imageData":{
@@ -805,12 +805,12 @@ package
          "sale":0,
          "description":"yardplanner_desc",
          "costs":[{
-            "r1":125000,
-            "r2":125000,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(125000),
+            "r2":new SecNum(125000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":0,
-            "time":43200,
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -879,25 +879,25 @@ package
          "sale":0,
          "description":"hatchery_desc",
          "costs":[{
-            "r1":2000,
-            "r2":2000,
-            "r3":0,
-            "r4":0,
-            "time":900,
+            "r1":new SecNum(2000),
+            "r2":new SecNum(2000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(900),
             "re":[[112,1,1],[15,1,1]]
          },{
-            "r1":21227,
-            "r2":49529,
-            "r3":0,
-            "r4":0,
-            "time":3600,
+            "r1":new SecNum(21227),
+            "r2":new SecNum(49529),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(3600),
             "re":[[112,1,1]]
          },{
-            "r1":93600,
-            "r2":218427,
-            "r3":0,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(93600),
+            "r2":new SecNum(218427),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -962,53 +962,53 @@ package
          "description":"townhall_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":10,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(10),
             "re":[]
          },{
-            "r1":7000,
-            "r2":7000,
-            "r3":0,
-            "r4":0,
-            "time":600,
+            "r1":new SecNum(7000),
+            "r2":new SecNum(7000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(600),
             "re":[[112,1,1]]
          },{
-            "r1":42000,
-            "r2":42000,
-            "r3":0,
-            "r4":0,
-            "time":14400,
+            "r1":new SecNum(42000),
+            "r2":new SecNum(42000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(14400),
             "re":[[112,1,1]]
          },{
-            "r1":240000,
-            "r2":240000,
-            "r3":0,
-            "r4":0,
-            "time":57600,
+            "r1":new SecNum(240000),
+            "r2":new SecNum(240000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(57600),
             "re":[[112,1,1]]
          },{
-            "r1":1400000,
-            "r2":1400000,
-            "r3":0,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(1400000),
+            "r2":new SecNum(1400000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":7560000,
-            "r2":7560000,
-            "r3":0,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(7560000),
+            "r2":new SecNum(7560000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          },{
-            "r1":11340000,
-            "r2":11340000,
-            "r3":0,
-            "r4":0,
-            "time":518400,
+            "r1":new SecNum(11340000),
+            "r2":new SecNum(11340000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(518400),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -1125,46 +1125,46 @@ package
          "sale":0,
          "description":"housing_desc",
          "costs":[{
-            "r1":2160,
-            "r2":2160,
-            "r3":0,
-            "r4":0,
-            "time":300,
+            "r1":new SecNum(2160),
+            "r2":new SecNum(2160),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(300),
             "re":[[112,1,1]]
          },{
-            "r1":8640,
-            "r2":8640,
-            "r3":0,
-            "r4":0,
-            "time":4500,
+            "r1":new SecNum(8640),
+            "r2":new SecNum(8640),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(4500),
             "re":[[112,1,1]]
          },{
-            "r1":34560,
-            "r2":34560,
-            "r3":0,
-            "r4":0,
-            "time":10800,
+            "r1":new SecNum(34560),
+            "r2":new SecNum(34560),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(10800),
             "re":[[112,1,1]]
          },{
-            "r1":138240,
-            "r2":138240,
-            "r3":0,
-            "r4":0,
-            "time":28800,
+            "r1":new SecNum(138240),
+            "r2":new SecNum(138240),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(28800),
             "re":[[112,1,1]]
          },{
-            "r1":552960,
-            "r2":552960,
-            "r3":0,
-            "r4":0,
-            "time":72000,
+            "r1":new SecNum(552960),
+            "r2":new SecNum(552960),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(72000),
             "re":[[112,1,1]]
          },{
-            "r1":2211840,
-            "r2":2211840,
-            "r3":0,
-            "r4":0,
-            "time":144000,
+            "r1":new SecNum(2211840),
+            "r2":new SecNum(2211840),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(144000),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -1206,11 +1206,11 @@ package
          "sale":0,
          "description":"hcc_desc",
          "costs":[{
-            "r1":500000,
-            "r2":500000,
-            "r3":500000,
-            "r4":0,
-            "time":90000,
+            "r1":new SecNum(500000),
+            "r2":new SecNum(500000),
+            "r3":new SecNum(500000),
+            "r4":new SecNum(0),
+            "time":new SecNum(90000),
             "re":[[112,1,1],[13,2,1]]
          }],
          "imageData":{
@@ -1251,39 +1251,39 @@ package
          "sale":0,
          "description":"woodenblock_desc",
          "costs":[{
-            "r1":1000,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(1000),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          },{
-            "r1":0,
-            "r2":10000,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(0),
+            "r2":new SecNum(10000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          },{
-            "r1":100000,
-            "r2":100000,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(100000),
+            "r2":new SecNum(100000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          },{
-            "r1":200000,
-            "r2":200000,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(200000),
+            "r2":new SecNum(200000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          },{
-            "r1":400000,
-            "r2":400000,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(400000),
+            "r2":new SecNum(400000),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -1459,104 +1459,104 @@ package
             "splash":75
          }],
          "costs":[{
-            "r1":2000,
-            "r2":1500,
-            "r3":500,
-            "r4":0,
-            "time":30,
+            "r1":new SecNum(2000),
+            "r2":new SecNum(1500),
+            "r3":new SecNum(500),
+            "r4":new SecNum(0),
+            "time":new SecNum(30),
             "re":[[112,1,1]]
          },{
-            "r1":10000,
-            "r2":7500,
-            "r3":2500,
-            "r4":0,
-            "time":900,
+            "r1":new SecNum(10000),
+            "r2":new SecNum(7500),
+            "r3":new SecNum(2500),
+            "r4":new SecNum(0),
+            "time":new SecNum(900),
             "re":[[112,1,1]]
          },{
-            "r1":50000,
-            "r2":37500,
-            "r3":12500,
-            "r4":0,
-            "time":2700,
+            "r1":new SecNum(50000),
+            "r2":new SecNum(37500),
+            "r3":new SecNum(12500),
+            "r4":new SecNum(0),
+            "time":new SecNum(2700),
             "re":[[112,1,1]]
          },{
-            "r1":250000,
-            "r2":187500,
-            "r3":62500,
-            "r4":0,
-            "time":8100,
+            "r1":new SecNum(250000),
+            "r2":new SecNum(187500),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(8100),
             "re":[[112,1,1]]
          },{
-            "r1":1250000,
-            "r2":937500,
-            "r3":312500,
-            "r4":0,
-            "time":24300,
+            "r1":new SecNum(1250000),
+            "r2":new SecNum(937500),
+            "r3":new SecNum(312500),
+            "r4":new SecNum(0),
+            "time":new SecNum(24300),
             "re":[[112,1,1]]
          },{
-            "r1":6250000,
-            "r2":4687500,
-            "r3":1562500,
-            "r4":0,
-            "time":72900,
+            "r1":new SecNum(6250000),
+            "r2":new SecNum(4687500),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(72900),
             "re":[[112,1,1]]
          },{
-            "r1":9375000,
-            "r2":7000000,
-            "r3":1562500,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(9375000),
+            "r2":new SecNum(7000000),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":14000000,
-            "r2":10500000,
-            "r3":1562500,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(14000000),
+            "r2":new SecNum(10500000),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          },{
-            "r1":21000000,
-            "r2":15800000,
-            "r3":1562500,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(21000000),
+            "r2":new SecNum(15800000),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          },{
-            "r1":31600000,
-            "r2":23700000,
-            "r3":1562500,
-            "r4":0,
-            "time":475200,
+            "r1":new SecNum(31600000),
+            "r2":new SecNum(23700000),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(475200),
             "re":[[112,1,1]]
          }],
          "can_fortify":true,
          "fortify_costs":[{
-            "r1":50000,
-            "r2":37500,
-            "r3":12500,
-            "r4":0,
-            "time":8100,
+            "r1":new SecNum(50000),
+            "r2":new SecNum(37500),
+            "r3":new SecNum(12500),
+            "r4":new SecNum(0),
+            "time":new SecNum(8100),
             "re":[[112,1,1]]
          },{
-            "r1":250000,
-            "r2":187500,
-            "r3":62500,
-            "r4":0,
-            "time":24300,
+            "r1":new SecNum(250000),
+            "r2":new SecNum(187500),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(24300),
             "re":[[112,1,1]]
          },{
-            "r1":1250000,
-            "r2":937500,
-            "r3":312500,
-            "r4":0,
-            "time":72900,
+            "r1":new SecNum(1250000),
+            "r2":new SecNum(937500),
+            "r3":new SecNum(312500),
+            "r4":new SecNum(0),
+            "time":new SecNum(72900),
             "re":[[112,1,1]]
          },{
-            "r1":6250000,
-            "r2":4687500,
-            "r3":1562500,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(6250000),
+            "r2":new SecNum(4687500),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -1678,104 +1678,104 @@ package
             "splash":0
          }],
          "costs":[{
-            "r1":1500,
-            "r2":2000,
-            "r3":500,
-            "r4":0,
-            "time":30,
+            "r1":new SecNum(1500),
+            "r2":new SecNum(2000),
+            "r3":new SecNum(500),
+            "r4":new SecNum(0),
+            "time":new SecNum(30),
             "re":[[112,1,1]]
          },{
-            "r1":7500,
-            "r2":10000,
-            "r3":2500,
-            "r4":0,
-            "time":900,
+            "r1":new SecNum(7500),
+            "r2":new SecNum(10000),
+            "r3":new SecNum(2500),
+            "r4":new SecNum(0),
+            "time":new SecNum(900),
             "re":[[112,1,1]]
          },{
-            "r1":37500,
-            "r2":50000,
-            "r3":12500,
-            "r4":0,
-            "time":2700,
+            "r1":new SecNum(37500),
+            "r2":new SecNum(50000),
+            "r3":new SecNum(12500),
+            "r4":new SecNum(0),
+            "time":new SecNum(2700),
             "re":[[112,1,1]]
          },{
-            "r1":187500,
-            "r2":250000,
-            "r3":62500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(187500),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":937500,
-            "r2":1250000,
-            "r3":312500,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(937500),
+            "r2":new SecNum(1250000),
+            "r3":new SecNum(312500),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":4687500,
-            "r2":6250000,
-            "r3":1562500,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(4687500),
+            "r2":new SecNum(6250000),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":7031250,
-            "r2":9375000,
-            "r3":2343750,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(7031250),
+            "r2":new SecNum(9375000),
+            "r3":new SecNum(2343750),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":10547000,
-            "r2":14062000,
-            "r3":3515000,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(10547000),
+            "r2":new SecNum(14062000),
+            "r3":new SecNum(3515000),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          },{
-            "r1":15820000,
-            "r2":21095000,
-            "r3":5275000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(15820000),
+            "r2":new SecNum(21095000),
+            "r3":new SecNum(5275000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          },{
-            "r1":32730000,
-            "r2":31650000,
-            "r3":7900000,
-            "r4":0,
-            "time":475200,
+            "r1":new SecNum(32730000),
+            "r2":new SecNum(31650000),
+            "r3":new SecNum(7900000),
+            "r4":new SecNum(0),
+            "time":new SecNum(475200),
             "re":[[112,1,1]]
          }],
          "can_fortify":true,
          "fortify_costs":[{
-            "r1":37500,
-            "r2":50000,
-            "r3":12500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(37500),
+            "r2":new SecNum(50000),
+            "r3":new SecNum(12500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":187500,
-            "r2":250000,
-            "r3":62500,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(187500),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":937500,
-            "r2":1250000,
-            "r3":312500,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(937500),
+            "r2":new SecNum(1250000),
+            "r3":new SecNum(312500),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":4687500,
-            "r2":6250000,
-            "r3":1562500,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(4687500),
+            "r2":new SecNum(6250000),
+            "r3":new SecNum(1562500),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -1840,32 +1840,32 @@ package
          "description":"monsterbunker_desc",
          "stats":[{"range":300},{"range":350},{"range":400},{"range":450}],
          "costs":[{
-            "r1":250000,
-            "r2":187500,
-            "r3":62500,
-            "r4":0,
-            "time":21600,
+            "r1":new SecNum(250000),
+            "r2":new SecNum(187500),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(21600),
             "re":[[112,1,1],[15,1,1]]
          },{
-            "r1":1000000,
-            "r2":1000000,
-            "r3":500000,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(1000000),
+            "r2":new SecNum(1000000),
+            "r3":new SecNum(500000),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1],[15,1,1]]
          },{
-            "r1":2000000,
-            "r2":2000000,
-            "r3":1000000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(2000000),
+            "r2":new SecNum(2000000),
+            "r3":new SecNum(1000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1],[15,1,1]]
          },{
-            "r1":3000000,
-            "r2":3000000,
-            "r3":1500000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(3000000),
+            "r2":new SecNum(3000000),
+            "r3":new SecNum(1500000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1],[15,1,1]]
          }],
          "imageData":{
@@ -1942,76 +1942,76 @@ package
             "splash":40
          }],
          "costs":[{
-            "r1":500000,
-            "r2":250000,
-            "r3":100000,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(500000),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(100000),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":1000000,
-            "r2":500000,
-            "r3":200000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(1000000),
+            "r2":new SecNum(500000),
+            "r3":new SecNum(200000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":2000000,
-            "r2":1000000,
-            "r3":400000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2000000),
+            "r2":new SecNum(1000000),
+            "r3":new SecNum(400000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":4000000,
-            "r2":2000000,
-            "r3":800000,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(4000000),
+            "r2":new SecNum(2000000),
+            "r3":new SecNum(800000),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          },{
-            "r1":8000000,
-            "r2":4000000,
-            "r3":1600000,
-            "r4":0,
-            "time":388800,
+            "r1":new SecNum(8000000),
+            "r2":new SecNum(4000000),
+            "r3":new SecNum(1600000),
+            "r4":new SecNum(0),
+            "time":new SecNum(388800),
             "re":[[112,1,1]]
          },{
-            "r1":16000000,
-            "r2":8000000,
-            "r3":3200000,
-            "r4":0,
-            "time":428800,
+            "r1":new SecNum(16000000),
+            "r2":new SecNum(8000000),
+            "r3":new SecNum(3200000),
+            "r4":new SecNum(0),
+            "time":new SecNum(428800),
             "re":[[112,1,1]]
          }],
          "can_fortify":true,
          "fortify_costs":[{
-            "r1":500000,
-            "r2":250000,
-            "r3":100000,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(500000),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(100000),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":1000000,
-            "r2":500000,
-            "r3":200000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(1000000),
+            "r2":new SecNum(500000),
+            "r3":new SecNum(200000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":2000000,
-            "r2":1000000,
-            "r3":400000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2000000),
+            "r2":new SecNum(1000000),
+            "r3":new SecNum(400000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":4000000,
-            "r2":2000000,
-            "r3":800000,
-            "r4":0,
-            "time":259200,
+            "r1":new SecNum(4000000),
+            "r2":new SecNum(2000000),
+            "r3":new SecNum(800000),
+            "r4":new SecNum(0),
+            "time":new SecNum(259200),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -2074,11 +2074,11 @@ package
          "sale":0,
          "description":"boobytrap_desc",
          "costs":[{
-            "r1":1000,
-            "r2":1000,
-            "r3":1000,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(1000),
+            "r2":new SecNum(1000),
+            "r3":new SecNum(1000),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -2153,76 +2153,76 @@ package
             "splash":0
          }],
          "costs":[{
-            "r1":187500,
-            "r2":250000,
-            "r3":62500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(187500),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":750000,
-            "r2":1000000,
-            "r3":250000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(750000),
+            "r2":new SecNum(1000000),
+            "r3":new SecNum(250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":2250000,
-            "r2":3000000,
-            "r3":750000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2250000),
+            "r2":new SecNum(3000000),
+            "r3":new SecNum(750000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":5250000,
-            "r2":5000000,
-            "r3":1250000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(5250000),
+            "r2":new SecNum(5000000),
+            "r3":new SecNum(1250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          },{
-            "r1":12000000,
-            "r2":10000000,
-            "r3":2000000,
-            "r4":0,
-            "time":518400,
+            "r1":new SecNum(12000000),
+            "r2":new SecNum(10000000),
+            "r3":new SecNum(2000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(518400),
             "re":[[112,1,1]]
          },{
-            "r1":22000000,
-            "r2":15000000,
-            "r3":3000000,
-            "r4":0,
-            "time":718400,
+            "r1":new SecNum(22000000),
+            "r2":new SecNum(15000000),
+            "r3":new SecNum(3000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(718400),
             "re":[[112,1,1]]
          }],
          "can_fortify":true,
          "fortify_costs":[{
-            "r1":187500,
-            "r2":250000,
-            "r3":62500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(187500),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":750000,
-            "r2":1000000,
-            "r3":250000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(750000),
+            "r2":new SecNum(1000000),
+            "r3":new SecNum(250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":2250000,
-            "r2":3000000,
-            "r3":750000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2250000),
+            "r2":new SecNum(3000000),
+            "r3":new SecNum(750000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":5250000,
-            "r2":5000000,
-            "r3":1250000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(5250000),
+            "r2":new SecNum(5000000),
+            "r3":new SecNum(1250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -2297,11 +2297,11 @@ package
          "sale":0,
          "description":"trojanhorse_desc",
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -2335,12 +2335,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2369,12 +2369,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2403,12 +2403,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2437,12 +2437,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2471,13 +2471,13 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "r4":0,
-            "time":0,
+            "r4":new SecNum(0),
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2506,12 +2506,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2540,12 +2540,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2574,12 +2574,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2608,12 +2608,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2642,12 +2642,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2676,12 +2676,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2710,12 +2710,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2744,12 +2744,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2778,12 +2778,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2812,12 +2812,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2846,12 +2846,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2880,12 +2880,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2914,12 +2914,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2948,12 +2948,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -2982,12 +2982,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3016,12 +3016,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3050,13 +3050,13 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":250,
-            "r4":0,
-            "time":0,
+            "r4":new SecNum(0),
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3085,13 +3085,13 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":250,
-            "r4":0,
-            "time":0,
+            "r4":new SecNum(0),
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3119,32 +3119,32 @@ package
          "description":"catapult_desc",
          "block":true,
          "costs":[{
-            "r1":75000,
-            "r2":75000,
-            "r3":75000,
-            "r4":0,
-            "time":10800,
+            "r1":new SecNum(75000),
+            "r2":new SecNum(75000),
+            "r3":new SecNum(75000),
+            "r4":new SecNum(0),
+            "time":new SecNum(10800),
             "re":[[112,1,1],[5,1,1]]
          },{
-            "r1":128600,
-            "r2":128600,
-            "r3":128600,
-            "r4":0,
-            "time":21600,
+            "r1":new SecNum(128600),
+            "r2":new SecNum(128600),
+            "r3":new SecNum(128600),
+            "r4":new SecNum(0),
+            "time":new SecNum(21600),
             "re":[[112,1,1],[5,1,1]]
          },{
-            "r1":257200,
-            "r2":257200,
-            "r3":257200,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(257200),
+            "r2":new SecNum(257200),
+            "r3":new SecNum(257200),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1],[5,1,1]]
          },{
-            "r1":514400,
-            "r2":514400,
-            "r3":514400,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(514400),
+            "r2":new SecNum(514400),
+            "r3":new SecNum(514400),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1],[5,1,1]]
          }],
          "imageData":{
@@ -3208,12 +3208,12 @@ package
          "description":"Leave a little note for a friend.",
          "block":true,
          "costs":[{
-            "r1":100000,
-            "r2":100000,
-            "r3":100000,
-            "r4":100000,
+            "r1":new SecNum(100000),
+            "r2":new SecNum(100000),
+            "r3":new SecNum(100000),
+            "r4":new SecNum(100000),
             "r5":0,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3289,12 +3289,12 @@ package
          "description":"bdg_acorn_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3322,12 +3322,12 @@ package
          "description":"bdg_beehive_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3355,12 +3355,12 @@ package
          "description":"bdg_birdhous_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3388,12 +3388,12 @@ package
          "description":"bdg_tent_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3421,12 +3421,12 @@ package
          "description":"bdg_jax_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3454,12 +3454,12 @@ package
          "description":"bdg_gnome_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3487,12 +3487,12 @@ package
          "description":"bdg_gnome_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3520,12 +3520,12 @@ package
          "description":"bdg_gnome_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3553,12 +3553,12 @@ package
          "description":"bdg_hammock_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3586,12 +3586,12 @@ package
          "description":"bdg_lawnchair_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3619,12 +3619,12 @@ package
          "description":"bdg_outhouse_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3652,12 +3652,12 @@ package
          "description":"bdg_pinecone_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3685,12 +3685,12 @@ package
          "description":"bdg_rock_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3718,12 +3718,12 @@ package
          "description":"bdg_scaleelectric_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3751,12 +3751,12 @@ package
          "description":"flag_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3784,12 +3784,12 @@ package
          "description":"bdg_sundial_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3817,12 +3817,12 @@ package
          "description":"bdg_tikitorch_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3851,12 +3851,12 @@ package
          "description":"bdg_walnut_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3884,12 +3884,12 @@ package
          "description":"bdg_tombstone_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3917,12 +3917,12 @@ package
          "description":"bdg_pokeyhead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3950,12 +3950,12 @@ package
          "description":"bdg_octohead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -3983,12 +3983,12 @@ package
          "description":"bdg_bolthead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4016,12 +4016,12 @@ package
          "description":"bdg_banditohead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4049,12 +4049,12 @@ package
          "description":"bdg_brainhead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4082,12 +4082,12 @@ package
          "description":"bdg_crabhead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4115,12 +4115,12 @@ package
          "description":"bdg_davehead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4148,12 +4148,12 @@ package
          "description":"bdg_eyerahead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4181,12 +4181,12 @@ package
          "description":"bdg_fanghead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4214,12 +4214,12 @@ package
          "description":"bdg_finkhead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4247,12 +4247,12 @@ package
          "description":"bdg_ichihead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4280,12 +4280,12 @@ package
          "description":"bdg_projectxhead_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4313,12 +4313,12 @@ package
          "description":"bdg_blackberrybush_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4343,12 +4343,12 @@ package
          "description":"bdg_bonsaitree_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4376,12 +4376,12 @@ package
          "description":"bdg_cactus_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4409,12 +4409,12 @@ package
          "description":"bdg_flytrap_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4442,12 +4442,12 @@ package
          "description":"bdg_thorns_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4475,12 +4475,12 @@ package
          "description":"bdg_pinkflowers_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4508,12 +4508,12 @@ package
          "description":"bdg_purpleflowers_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4541,12 +4541,12 @@ package
          "description":"bdg_redflowers_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4574,12 +4574,12 @@ package
          "description":"bdg_whiteflowers_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4607,12 +4607,12 @@ package
          "description":"bdg_yellowflowers_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4640,12 +4640,12 @@ package
          "description":"bdg_baseballstatue_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4673,12 +4673,12 @@ package
          "description":"bdg_footballstatue_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4706,12 +4706,12 @@ package
          "description":"bdg_soccerstatue_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4739,12 +4739,12 @@ package
          "description":"bdg_libertystatue_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4772,12 +4772,12 @@ package
          "description":"bdg_eiffelstatue_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4805,12 +4805,12 @@ package
          "description":"bdg_bigben_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4838,12 +4838,12 @@ package
          "description":"bdg_pool_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4871,12 +4871,12 @@ package
          "description":"bdg_pond_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4901,12 +4901,12 @@ package
          "description":"bdg_zengarden_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4934,12 +4934,12 @@ package
          "description":"bdg_fountain_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -4967,12 +4967,12 @@ package
          "description":"bdg_teargarden_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5000,12 +5000,12 @@ package
          "description":"bdg_monsterskull_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5033,12 +5033,12 @@ package
          "description":"bdg_rubikunsolved_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5066,12 +5066,12 @@ package
          "description":"bdg_rubiksolved_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5099,12 +5099,12 @@ package
          "description":"bdg_halloween_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":1000,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5132,12 +5132,12 @@ package
          "description":"bdg_halloween_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":0,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5164,11 +5164,11 @@ package
          "description":"outpost_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":10,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(10),
             "re":[]
          }],
          "imageData":{
@@ -5214,32 +5214,32 @@ package
          },
          "can_fortify":true,
          "fortify_costs":[{
-            "r1":250000,
-            "r2":50000,
-            "r3":25000,
-            "r4":0,
-            "time":14400,
+            "r1":new SecNum(250000),
+            "r2":new SecNum(50000),
+            "r3":new SecNum(25000),
+            "r4":new SecNum(0),
+            "time":new SecNum(14400),
             "re":[[112,1,1]]
          },{
-            "r1":500000,
-            "r2":500000,
-            "r3":500000,
-            "r4":0,
-            "time":57600,
+            "r1":new SecNum(500000),
+            "r2":new SecNum(500000),
+            "r3":new SecNum(500000),
+            "r4":new SecNum(0),
+            "time":new SecNum(57600),
             "re":[[112,1,1]]
          },{
-            "r1":2500000,
-            "r2":2500000,
-            "r3":1000000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2500000),
+            "r2":new SecNum(2500000),
+            "r3":new SecNum(1000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":5000000,
-            "r2":5000000,
-            "r3":2500000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(5000000),
+            "r2":new SecNum(5000000),
+            "r3":new SecNum(2500000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          }],
          "quantity":[1,1,1,1,1,1,1,1,1],
@@ -5322,76 +5322,76 @@ package
             "splash":205
          }],
          "costs":[{
-            "r1":215000,
-            "r2":280000,
-            "r3":62500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(215000),
+            "r2":new SecNum(280000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":850000,
-            "r2":1200000,
-            "r3":250000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(850000),
+            "r2":new SecNum(1200000),
+            "r3":new SecNum(250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":2750000,
-            "r2":3400000,
-            "r3":750000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2750000),
+            "r2":new SecNum(3400000),
+            "r3":new SecNum(750000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":5750000,
-            "r2":5200000,
-            "r3":1250000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(5750000),
+            "r2":new SecNum(5200000),
+            "r3":new SecNum(1250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          },{
-            "r1":13500000,
-            "r2":11000000,
-            "r3":2000000,
-            "r4":0,
-            "time":518400,
+            "r1":new SecNum(13500000),
+            "r2":new SecNum(11000000),
+            "r3":new SecNum(2000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(518400),
             "re":[[112,1,1]]
          },{
-            "r1":27000000,
-            "r2":22000000,
-            "r3":2750000,
-            "r4":0,
-            "time":718400,
+            "r1":new SecNum(27000000),
+            "r2":new SecNum(22000000),
+            "r3":new SecNum(2750000),
+            "r4":new SecNum(0),
+            "time":new SecNum(718400),
             "re":[[112,1,1]]
          }],
          "can_fortify":true,
          "fortify_costs":[{
-            "r1":215000,
-            "r2":280000,
-            "r3":62500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(215000),
+            "r2":new SecNum(280000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[112,1,1]]
          },{
-            "r1":850000,
-            "r2":1200000,
-            "r3":250000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(850000),
+            "r2":new SecNum(1200000),
+            "r3":new SecNum(250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":2750000,
-            "r2":3400000,
-            "r3":750000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2750000),
+            "r2":new SecNum(3400000),
+            "r3":new SecNum(750000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":5750000,
-            "r2":5200000,
-            "r3":1250000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(5750000),
+            "r2":new SecNum(5200000),
+            "r3":new SecNum(1250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -5463,11 +5463,11 @@ package
          "sale":0,
          "description":"heavytrap_desc",
          "costs":[{
-            "r1":50000,
-            "r2":50000,
-            "r3":50000,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(50000),
+            "r2":new SecNum(50000),
+            "r3":new SecNum(50000),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -5540,76 +5540,76 @@ package
             "splash":0
          }],
          "costs":[{
-            "r1":1600000,
-            "r2":1920000,
-            "r3":1280000,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(1600000),
+            "r2":new SecNum(1920000),
+            "r3":new SecNum(1280000),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":2880000,
-            "r2":3456000,
-            "r3":2304000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(2880000),
+            "r2":new SecNum(3456000),
+            "r3":new SecNum(2304000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":5184000,
-            "r2":6220800,
-            "r3":4147200,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(5184000),
+            "r2":new SecNum(6220800),
+            "r3":new SecNum(4147200),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":9331200,
-            "r2":11197440,
-            "r3":7464960,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(9331200),
+            "r2":new SecNum(11197440),
+            "r3":new SecNum(7464960),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          },{
-            "r1":16796160,
-            "r2":20115392,
-            "r3":13436928,
-            "r4":0,
-            "time":518400,
+            "r1":new SecNum(16796160),
+            "r2":new SecNum(20115392),
+            "r3":new SecNum(13436928),
+            "r4":new SecNum(0),
+            "time":new SecNum(518400),
             "re":[[112,1,1]]
          },{
-            "r1":21796160,
-            "r2":30117392,
-            "r3":20136928,
-            "r4":0,
-            "time":718400,
+            "r1":new SecNum(21796160),
+            "r2":new SecNum(30117392),
+            "r3":new SecNum(20136928),
+            "r4":new SecNum(0),
+            "time":new SecNum(718400),
             "re":[[112,1,1]]
          }],
          "can_fortify":true,
          "fortify_costs":[{
-            "r1":2000000,
-            "r2":2400000,
-            "r3":1600000,
-            "r4":0,
-            "time":43200,
+            "r1":new SecNum(2000000),
+            "r2":new SecNum(2400000),
+            "r3":new SecNum(1600000),
+            "r4":new SecNum(0),
+            "time":new SecNum(43200),
             "re":[[112,1,1]]
          },{
-            "r1":2600000,
-            "r2":3320000,
-            "r3":1880000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(2600000),
+            "r2":new SecNum(3320000),
+            "r3":new SecNum(1880000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[112,1,1]]
          },{
-            "r1":4480000,
-            "r2":4776000,
-            "r3":2184000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(4480000),
+            "r2":new SecNum(4776000),
+            "r3":new SecNum(2184000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[112,1,1]]
          },{
-            "r1":9664000,
-            "r2":9996800,
-            "r3":4331200,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(9664000),
+            "r2":new SecNum(9996800),
+            "r3":new SecNum(4331200),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[112,1,1]]
          }],
          "imageData":{
@@ -5703,12 +5703,12 @@ package
          "description":"bdg_wmitotem1_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5736,12 +5736,12 @@ package
          "description":"bdg_wmitotem2_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5769,12 +5769,12 @@ package
          "description":"bdg_wmitotem3_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5802,12 +5802,12 @@ package
          "description":"bdg_wmitotem4_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5835,12 +5835,12 @@ package
          "description":"bdg_wmitotem5_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5868,12 +5868,12 @@ package
          "description":"bdg_wmitotem6_desc",
          "block":true,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":150,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -5899,32 +5899,32 @@ package
          "sale":0,
          "description":"trojanhorse_desc",
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[14,1,1]]
          },{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[14,1,1]]
          },{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[14,1,1]]
          },{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
-            "time":5,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
+            "time":new SecNum(5),
             "re":[[14,1,1]]
          }],
          "imageData":{
@@ -6049,75 +6049,75 @@ package
             "splash":0
          }],
          "costs":[{
-            "r1":187500,
-            "r2":250000,
-            "r3":62500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(187500),
+            "r2":new SecNum(250000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[INFERNOQUAKETOWER.UNDERHALL_ID,1,1]]
          },{
-            "r1":750000,
-            "r2":1000000,
-            "r3":250000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(750000),
+            "r2":new SecNum(1000000),
+            "r3":new SecNum(250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[INFERNOQUAKETOWER.UNDERHALL_ID,1,1]]
          },{
-            "r1":2250000,
-            "r2":3000000,
-            "r3":750000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2250000),
+            "r2":new SecNum(3000000),
+            "r3":new SecNum(750000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[INFERNOQUAKETOWER.UNDERHALL_ID,1,1]]
          },{
-            "r1":5250000,
-            "r2":5000000,
-            "r3":1250000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(5250000),
+            "r2":new SecNum(5000000),
+            "r3":new SecNum(1250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[INFERNOQUAKETOWER.UNDERHALL_ID,1,1]]
          },{
-            "r1":12000000,
-            "r2":10000000,
-            "r3":2000000,
-            "r4":0,
-            "time":518400,
+            "r1":new SecNum(12000000),
+            "r2":new SecNum(10000000),
+            "r3":new SecNum(2000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(518400),
             "re":[[INFERNOQUAKETOWER.UNDERHALL_ID,1,1]]
          },{
-            "r1":16000000,
-            "r2":15000000,
-            "r3":3000000,
-            "r4":0,
-            "time":791200,
+            "r1":new SecNum(16000000),
+            "r2":new SecNum(15000000),
+            "r3":new SecNum(3000000),
+            "r4":new SecNum(0),
+            "time":new SecNum(791200),
             "re":[[INFERNOQUAKETOWER.UNDERHALL_ID,1,1]]
          }],
          "fortify_costs":[{
-            "r1":215000,
-            "r2":280000,
-            "r3":62500,
-            "r4":0,
-            "time":18000,
+            "r1":new SecNum(215000),
+            "r2":new SecNum(280000),
+            "r3":new SecNum(62500),
+            "r4":new SecNum(0),
+            "time":new SecNum(18000),
             "re":[[14,1,5]]
          },{
-            "r1":850000,
-            "r2":1200000,
-            "r3":250000,
-            "r4":0,
-            "time":86400,
+            "r1":new SecNum(850000),
+            "r2":new SecNum(1200000),
+            "r3":new SecNum(250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(86400),
             "re":[[14,1,6]]
          },{
-            "r1":2750000,
-            "r2":3400000,
-            "r3":750000,
-            "r4":0,
-            "time":172800,
+            "r1":new SecNum(2750000),
+            "r2":new SecNum(3400000),
+            "r3":new SecNum(750000),
+            "r4":new SecNum(0),
+            "time":new SecNum(172800),
             "re":[[14,1,7]]
          },{
-            "r1":5750000,
-            "r2":5200000,
-            "r3":1250000,
-            "r4":0,
-            "time":345600,
+            "r1":new SecNum(5750000),
+            "r2":new SecNum(5200000),
+            "r3":new SecNum(1250000),
+            "r4":new SecNum(0),
+            "time":new SecNum(345600),
             "re":[[14,1,8]]
          }],
          "imageData":{
@@ -6181,12 +6181,12 @@ package
          "cls":SiegeFactory,
          "hitCls":siegeFactoryHit,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":0,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -6258,12 +6258,12 @@ package
          "cls":SiegeLab,
          "hitCls":siegeLabHit,
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":0,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "imageData":{
@@ -6336,12 +6336,12 @@ package
          "locked":true,
          "lockedButtonOverlay":"buildingbuttons/135locked.png",
          "costs":[{
-            "r1":0,
-            "r2":0,
-            "r3":0,
-            "r4":0,
+            "r1":new SecNum(0),
+            "r2":new SecNum(0),
+            "r3":new SecNum(0),
+            "r4":new SecNum(0),
             "r5":0,
-            "time":0,
+            "time":new SecNum(0),
             "re":[]
          }],
          "buildingbuttons":["135"],
@@ -6356,7 +6356,6 @@ package
          "hp":[100],
          "repairTime":[1]
       }];
-       
       
       public function OUTPOST_YARD_PROPS()
       {

@@ -1,132 +1,111 @@
+import { z } from "zod";
+
 import { KoaController } from "../../../utils/KoaController";
-import { wildMonsterCell } from "./cells/wildMonsterCell";
-import { homeCell } from "./cells/homeCell";
 import { User } from "../../../models/user.model";
 import { WorldMapCell } from "../../../models/worldmapcell.model";
 import { ORMContext } from "../../../server";
-import { calculateBaseLevel } from "../../../services/base/calculateBaseLevel";
-import { generateTerrain } from "./terrain/generateTerrain";
-import { Terrain } from "./terrain/Terrain";
-import { outpostCell } from "./cells/outpostCell";
 import { devConfig } from "../../../config/DevSettings";
+import { Status } from "../../../enums/StatusCodes";
+import { createCellData } from "../../../services/maproom/v2/createCellData";
+import { Save } from "../../../models/save.model";
+import {
+  generateNoise,
+  getTerrainHeight,
+} from "../../../config/WorldGenSettings";
 
-interface Cell {
-  x?: number;
-  y?: number;
-  width?: number;
-  height?: number;
-  sendresources?: number;
-}
+/**
+ * Schema for validating the request body when getting area data.
+ */
+const getAreaSchema = z.object({
+  x: z.string().transform(x => parseInt(x, 10)),
+  y: z.string().transform(y => parseInt(y, 10)),
+  sendresources: z.string().optional().transform(res => parseInt(res, 10) || 0),
+});
 
+/**
+ * Controller for generating cells on the World Map.
+ * 
+ * Processes chunks of 10 x 10 cells, retrieving persistent cells (e.g., homebases, outposts) 
+ * from the database, while all other cells are stored in-memory.
+ * 
+ * @param {Koa.Context} ctx - The Koa context object
+ * @returns {Promise<void>} A promise that resolves when the area data is retrieved and the response is sent.
+ * 
+ * @throws {Error} Throws an error if there are issues parsing the request body or retrieving data.
+ */
 export const getArea: KoaController = async (ctx) => {
+  const { x, y, sendresources } = getAreaSchema.parse(ctx.request.body);
+
   const user: User = ctx.authUser;
-  const requestBody: Cell = ctx.request.body;
   await ORMContext.em.populate(user, ["save"]);
-  const save = user.save;
 
-  for (const key in requestBody) {
-    requestBody[key] = parseInt(requestBody[key], 10) || 0;
-  }
+  const save: Save = user.save;
+  const worldid = save.worldid;
 
-  const width = requestBody.width || 10;
-  const height = requestBody.height || 10;
-  const currentX = requestBody.x;
-  const currentY = requestBody.y;
-  const sendresources = requestBody.sendresources || 0;
+  // We ignore width & height sent by the client as it's already hardcoded to 10 x 10
+  const width = 10;
+  const height = 10;
 
-  const terrainMap = generateTerrain(height, height);
+  const currentX = x;
+  const currentY = y;
 
-  // Converts terrain map to a map of terrain types represented as numbers
-  const terrainTypeValues: number[][] = terrainMap.map((row) =>
-    row.map((cell) => cell)
+  // First, get persistant cells which have been stored in the database.
+  const dbCells = await ORMContext.em.find(
+    WorldMapCell,
+    {
+      x: {
+        $gte: currentX,
+        $lte: currentX + width,
+      },
+      y: {
+        $gte: currentY,
+        $lte: currentY + height,
+      },
+      world_id: worldid,
+    },
+    { populate: ["save"] }
   );
 
-  // Creates {maxX} x {maxY} grid from point 0 x 0
-  const maxX = currentX + width;
-  const maxY = currentY + height;
+  const cells = {};
+  for (const cell of dbCells) {
+    if (!cells[cell.x]) cells[cell.x] = {};
+    cells[cell.x][cell.y] = await createCellData(cell, worldid, ctx);
+  }
 
-  const wCells = await ORMContext.em.find(WorldMapCell, {
-    x: {
-      $gte: currentX,
-      $lte: maxX,
-    },
-    y: {
-      $gte: currentY,
-      $lte: maxY,
-    },
-    world_id: "1", // ToDo: implement a world table?
-  });
-
-  const baseLevel = calculateBaseLevel(save.points, save.basevalue);
-
-  const worldMap = wCells.reduce<{
-    [x: number]: { [y: number]: WorldMapCell };
-  }>((acc, obj) => {
-    const { x, y } = obj;
-    if (!acc[x]) {
-      acc[x] = {};
-    }
-    acc[x][y] = obj;
-    return acc;
-  }, {});
-
-  let cells = {};
-
-  for (let x = currentX; x < maxX; x++) {
-    cells[x] = {};
-
-    for (let y = currentY; y < maxY; y++) {
-      const terrain = terrainTypeValues[x - currentX][y - currentY];
-      const s_lvl = baseLevel < 20 ? 10 : baseLevel < 30 ? 20 : 30; // ToDo: add level randomness base on auth save level
-
-      if (worldMap.hasOwnProperty(x)) {
-        if (worldMap[x].hasOwnProperty(y)) {
-          const cell = worldMap[x][y];
-          if (cell.base_type != 1) {
-            cells[x][y] = await homeCell(ctx, cell);
-          } else {
-            cells[x][y] = await wildMonsterCell(terrain, cell, s_lvl);
-          }
-          continue;
-        }
-      }
-
-      const cell = new WorldMapCell();
-      cell.x = x;
-      cell.y = y;
-      cell.base_id = 0;
-      cell.world_id = save.worldid;
-
-      if (
-        terrain === Terrain.WATER1 ||
-        terrain === Terrain.WATER2 ||
-        terrain === Terrain.WATER3
-      ) {
-        cells[x][y] = { i: terrain };
-        continue;
-      }
-
-      cells[x][y] = await wildMonsterCell(terrain, cell, s_lvl);
+  // Then, fill the remaining cells in-memory
+  const noise = generateNoise(save.worldid);
+  for (let cellX = currentX; cellX <= currentX + width; cellX++) {
+    // Ensure the cellX object exists in the cells map to append the cellY object to it
+    if (!cells[cellX]) cells[cellX] = {};
+    for (let cellY = currentY; cellY <= currentY + height; cellY++) {
+      // The cell already exists, skip it
+      if (cells[cellX][cellY]) continue;
+      const terrainHeight = getTerrainHeight(noise, cellX, cellY);
+      // Create a cell in-memory, skip the world being defined for memory efficency
+      const inMemoryCell = new WorldMapCell(
+        undefined,
+        cellX,
+        cellY,
+        terrainHeight
+      );
+      cells[cellX][cellY] = await createCellData(inMemoryCell, worldid, ctx);
     }
   }
 
   if (devConfig.maproom) {
-    ctx.status = 200;
+    ctx.status = Status.OK;
     ctx.body = {
       error: 0,
       x: currentX,
       y: currentY,
       data: cells,
-      // resources: save.resources,
-      // alliancedata
+      ...(sendresources === 1 && {
+        resources: save.resources,
+        credits: save.credits,
+      }),
     };
-
-    if (sendresources === 1) {
-      ctx.body["resources"] = save.resources;
-      ctx.body["credits"] = save.credits;
-    }
   } else {
-    ctx.status = 404;
-    ctx.body = { message: "MapRoom is not enabled on this server", error: 1 };
+    ctx.status = Status.NOT_FOUND;
+    ctx.body = { error: "Map Room is not enabled on this server" };
   }
 };

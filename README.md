@@ -8,9 +8,10 @@
 ![Koa.JS](https://img.shields.io/badge/Koa.JS-%23121011.svg?style=for-the-badge)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![ActionScript](https://img.shields.io/badge/ActionScript-%23DD0031.svg?style=for-the-badge)
-![Flash](https://img.shields.io/badge/Flash-%23CF4647.svg?style=for-the-badge)
 
 ## Repo Information
 We are running a lightweight [Koa](https://koajs.com/) server written in [TypeScript](https://www.typescriptlang.org/), with a [MariaDB](https://mariadb.org/) database leveraging [MikroORM](https://mikro-orm.io/), as our ORM of choice. The client is written in [ActionScript 3](https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/index.html) and uses [Adobe FlashPlayer](https://www.adobe.com/products/flashplayer/end-of-life.html) to display its content. 
@@ -20,30 +21,66 @@ This repository contains the entire modified SWF (Shockwave Flash) client files,
 <br>
 
 ## 🚀 How to Play
-We recommend to run the game in the native Flash Player projector, which is included in the root of this repository [here](./flashplayer_32.exe). Once you have downloaded and opened the Flash Player, click on `File > Open` and select the game file. You can find the game file under our [latest releases](https://github.com/bym-refitted/backyard-monsters-refitted/releases).
+We recommend to download our game launcher which can be installed from our website's [download page](https://bymrefitted.com/downloads). This will allow you to seamlessly manage what build versions of the client you play, all from one place, without worrying about manually downloading new versions. The launcher currently supports Windows (64-bit) and Linux.
 
 <br>
 
 
-## Server setup
+## 🗄️ Server setup
 
-1. Clone this repository and checkout the develop branch:
+It is possible to run the server manually or to deploy it using Docker Compose.
+
+### Repository Setup
+
+Start by cloning the repository and switching to the develop branch:
 
 ```bash
 git clone https://github.com/bym-refitted/backyard-monsters-refitted
+cd backyard-monsters-refitted
+git switch develop
 ```
 
+### 🐳 Docker Deployment
+
+You can deploy the server locally using Docker with our docker-compose file.
+
+**Important**: Do *NOT* use the `docker-compose.yml` file as is for production. It contains hardcoded secret keys as well as weak database credentials meant for local use only.
+
+#### Deployment Components
+
+The deployment includes the following containers:
+  - 🎮 **Game Server**: Runs a web server based on a custom Docker image built from server/Dockerfile.
+  - 💿 **MariaDB**: Provides the database backend.
+  - 📄 **phpMyAdmin**: Allows you to manage and inspect the database.
+
+#### Setting It Up
+1.	**Install Docker**
+2.	**Navigate to the cloned repository in your terminal**
+3.	**Start the deployment**:
+  ```bash
+  docker compose up
+  ```
+4.	**Verify that services are running**:
+    - **Game Server**: Visit http://localhost:3001 to confirm the API is online.
+    -	**phpMyAdmin**: Access http://localhost:8080. Use the default credentials (username: bymr, password: bymr) or update them in docker-compose.yml.
+5.	**Connect to the server**: Use the latest release of the SWF file or compile it manually (instructions provided below).
+
+### 🛠️ Manual Deployment
+
+Follow the instructions carefully on our [server setup & configuration](https://github.com/bym-refitted/backyard-monsters-refitted/wiki/Server-&-Database-Setup) Wiki page.
+
 <br />
 
-2. Follow the instructions carefully on our [server setup & configuration](https://github.com/bym-refitted/backyard-monsters-refitted/wiki/Server-&-Database-Setup) Wiki page.
+## 💻 Client Setup
 
-<br />
-
-## Client Setup
-
-1. Follow the instructions carefully on our [client setup & configuration](https://github.com/bym-refitted/backyard-monsters-refitted/wiki/Client-Setup,-IntelliSense-&-Configuration) Wiki page.
+1. Follow the instructions carefully on our [client setup & configuration](https://github.com/bym-refitted/backyard-monsters-refitted/wiki/Client-Setup-&-Compilation) Wiki page.
 
 2. To contribute you will need to copy your changes to the src directory. If you are wondering why we are using this horrible workflow please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more information. If you are able to figure out how to compile directly to swf without unlinking all assets, please let us know.
+
+<br />
+
+## 📱 Android Setup
+1. To compile an APK for Android follow our [Android Application Setup](https://github.com/bym-refitted/backyard-monsters-refitted/wiki/Android-Application-Setup) Wiki page.
 
 <br />
 

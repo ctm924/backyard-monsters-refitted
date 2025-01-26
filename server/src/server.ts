@@ -2,29 +2,24 @@ import "reflect-metadata";
 import "dotenv/config";
 
 import Koa, { Context, Next } from "koa";
-import session from "koa-session";
 import Router from "@koa/router";
 import bodyParser from "koa-bodyparser";
 import serve from "koa-static";
 import ormConfig from "./mikro-orm.config";
 import router from "./app.routes";
+
+import { createClient } from "redis";
 import { MariaDbDriver } from "@mikro-orm/mariadb";
 import { EntityManager, MikroORM, RequestContext } from "@mikro-orm/core";
-import { errorLog, logging } from "./utils/logger.js";
-import { firstRunEnv } from "./utils/firstRunEnv.js";
-import { ascii_node } from "./utils/ascii_art.js";
-import { ErrorInterceptor } from "./middleware/clientSafeError.js";
+import { errorLog, logging } from "./utils/logger";
+import { firstRunEnv } from "./utils/firstRunEnv";
+import { ascii_node } from "./utils/ascii_art";
+import { ErrorInterceptor } from "./middleware/clientSafeError";
 import { processLanguagesFile } from "./middleware/processLanguageFile";
 import { logMissingAssets, morganLogging } from "./middleware/morganLogging";
-import { SESSION_CONFIG } from "./config/SessionConfig";
-import { getLatestSwfFromGithub } from "./utils/getLatestSwfFromGithub";
-
-/**
- * ToDos:
- * Frontend handle error
- * Error handling for the download
- * Fix https
- */
+import { Status } from "./enums/StatusCodes";
+import { getLatestSwfFromGithub } from "./controllers/github/getLatestSwfFromGithub";
+import { corsCacheControl } from "./middleware/corsCacheControlSetup";
 
 export const app = new Koa();
 
@@ -35,6 +30,13 @@ export const ORMContext = {} as {
 
 let globalApiVersion: string;
 
+export const redisClient = createClient({
+  url: process.env.REDIS_URL || "redis://localhost:6379",
+});
+
+redisClient.on("connect", () => logging("Connected to Redis client."));
+redisClient.on("error", (err) => errorLog("Redis client error:", err));
+
 export const setApiVersion = (version: string) => {
   logging(
     `Updating latest client version, server is using: ${globalApiVersion}`
@@ -42,10 +44,12 @@ export const setApiVersion = (version: string) => {
   globalApiVersion = version;
 };
 
-export const getApiVersion = () => globalApiVersion;
+export const getApiVersion = () => "v1.1.3-beta";
+export const PORT = process.env.PORT || 3001;
+export const BASE_URL = process.env.BASE_URL;
 
-const PORT = process.env.PORT || 3001;
-const BASE_URL = process.env.BASE_URL;
+// CORS & Cache Control
+app.use(corsCacheControl);
 
 // Entry point for all modules.
 const api = new Router();
@@ -54,12 +58,10 @@ api.get("/", (ctx: Context) => (ctx.body = {}));
 (async () => {
   await firstRunEnv();
 
-  // Sessions
-  app.keys = [process.env.SECRET_KEY];
-  app.use(session(SESSION_CONFIG, app));
-
   ORMContext.orm = await MikroORM.init<MariaDbDriver>(ormConfig);
   ORMContext.em = ORMContext.orm.em;
+
+  await redisClient.connect();
 
   app.use(
     bodyParser({
@@ -72,8 +74,6 @@ api.get("/", (ctx: Context) => (ctx.body = {}));
   app.use((_, next: Next) =>
     RequestContext.createAsync(ORMContext.orm.em, next)
   );
-
-  app.use(ErrorInterceptor);
 
   // Logs
   app.use(logMissingAssets);
@@ -89,7 +89,7 @@ api.get("/", (ctx: Context) => (ctx.body = {}));
 
   app.use(async (ctx, next) => {
     if (ctx.path === "/crossdomain.xml") {
-      ctx.type = "application/xml";
+      ctx.status = Status.OK;
       ctx.body = `<?xml version="1.0"?>
                   <!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
                   <cross-domain-policy>
@@ -97,6 +97,7 @@ api.get("/", (ctx: Context) => (ctx.body = {}));
                       <allow-access-from domain="*" secure="false" />
                       <allow-http-request-headers-from domain="*" headers="Authorization" secure="false" />
                   </cross-domain-policy>`;
+      ctx.type = "application/xml";
     } else {
       await next();
     }
@@ -110,6 +111,8 @@ api.get("/", (ctx: Context) => (ctx.body = {}));
   if (process.env.USE_VERSION_MANAGEMENT === "enabled") {
     setApiVersion(await getLatestSwfFromGithub());
   }
+
+  app.use(ErrorInterceptor);
 
   // Routes
   app.use(router.routes());

@@ -293,6 +293,10 @@ package
          if(_lvl.Get() < _buildingProps.costs.length)
          {
             _loc9_ = _buildingProps.produce[_lvl.Get()] / _buildingProps.cycleTime[_lvl.Get()] * 60 * 60;
+            if(BASE.isOutpost)
+            {
+               _loc9_ = AdjustProduction(GLOBAL._currentCell,_loc9_);
+            }
             _loc10_ = _loc4_;
             _loc2_ = int(_buildingProps.capacity[_lvl.Get()]);
             if(BASE.isOutpost)
@@ -312,7 +316,7 @@ package
             if(!BASE.isOutpost)
             {
                _upgradeDescription += KEYS.Get("bdg_resource_upcapacity",{
-                  "v1":GLOBAL.FormatNumber(this.productionCapacity),
+                  "v1":GLOBAL.FormatNumber(_buildingProps.capacity[_lvl.Get() - 1]),
                   "v2":GLOBAL.FormatNumber(_buildingProps.capacity[_lvl.Get()])
                });
             }

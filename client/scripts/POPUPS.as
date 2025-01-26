@@ -382,6 +382,25 @@ package
             _loc1_++;
          }
       }
+
+      public static function NoConnection() : void {
+         var movie:MovieClip = null;
+         SOUNDS.StopAll();
+         _mcBG = GLOBAL._layerTop.addChild(new popup_bg2()) as popup_bg2;
+         _mcBG.x = GLOBAL._SCREEN.x;
+         _mcBG.y = GLOBAL._SCREEN.y;
+         _mcBG.width = GLOBAL._SCREEN.width;
+         _mcBG.height = GLOBAL._SCREEN.height;
+         _mcBG.cacheAsBitmap = true;
+         movie = new popup_timeout();
+         movie.tA.htmlText = "<b>" + KEYS.Get("pop_noconnect_title") + "</b>";
+         movie.tB.htmlText = KEYS.Get("pop_noconnect_body");
+         movie.bGift.visible = false;
+         movie.x = GLOBAL._SCREENCENTER.x;
+         movie.y = GLOBAL._SCREENCENTER.y;
+         GLOBAL._layerTop.addChild(movie);
+         GLOBAL._halt = true;
+      }
       
       public static function Timeout() : void
       {
@@ -646,7 +665,7 @@ package
                _loc4_ = param2 as BFOUNDATION;
                if(param1 == 1 && Boolean(_loc4_))
                {
-                  if(int(_loc4_._buildingProps.costs[_loc4_._lvl.Get()].time * GLOBAL._buildTime) > 3600)
+                  if(int(_loc4_._buildingProps.costs[_loc4_._lvl.Get()].time.Get() * GLOBAL._buildTime) > 3600)
                   {
                      UPDATES.Create(["BU",_loc4_._id]);
                   }
@@ -661,7 +680,7 @@ package
                }
                else if(param1 == 3 && Boolean(_loc4_))
                {
-                  if(int(_loc4_._buildingProps.fortify_costs[_loc4_._fortification.Get()].time * GLOBAL._buildTime) > 3600)
+                  if(int(_loc4_._buildingProps.fortify_costs[_loc4_._fortification.Get()].time.Get() * GLOBAL._buildTime) > 3600)
                   {
                      UPDATES.Create(["BF",_loc4_._id]);
                   }

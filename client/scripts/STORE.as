@@ -172,7 +172,7 @@ package
       
       public static function GetInstantBuyCost(param1:Object) : int
       {
-         return GetTimeCost(param1.time) + GetResourceCost([param1.r1,param1.r2,param1.r3,param1.r4]);
+         return GetTimeCost(param1.time.Get()) + GetResourceCost([param1.r1.Get(),param1.r2.Get(),param1.r3.Get(),param1.r4.Get()]);
       }
       
       public static function GetTimeCost(param1:int, param2:Boolean = true) : int
@@ -3171,7 +3171,8 @@ package
          ZazzleClear();
          _zazzleMC = new MovieClip();
          _mc.window.addChild(_zazzleMC);
-         img = "popups/" + "ZAZZLE_AD.v2" + ".jpg";
+         //img = "popups/" + "ZAZZLE_AD.v2" + ".jpg";
+         img = "popups/" + "DISCORD_AD" + ".png";
          ImageCache.GetImageWithCallBack(img,ZazzleImageLoaded);
       }
       
@@ -3186,7 +3187,8 @@ package
       
       public static function ZazzleClick(param1:Event = null) : void
       {
-         GLOBAL.gotoURL("http://www.zazzle.com/backyardmonsters/",null,true,[63,1]);
+         //GLOBAL.gotoURL("http://www.zazzle.com/backyardmonsters/",null,true,[63,1]);
+         GLOBAL.gotoURL("http://discord.gg/spnd23jGE9",null,true,[63,1]);
       }
    }
 }

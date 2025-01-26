@@ -40,7 +40,7 @@ export const infernoMonsters: KoaController = async ctx => {
         fork.persistAndFlush(infSave);
       }
     }
-
+    //  ctx.status = Status.OK;
     ctx.status = 200;
     ctx.body = {
       error: 0,

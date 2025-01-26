@@ -27,7 +27,6 @@ package
       
       override public function Tick(param1:int) : void
       {
-         _initFinishedMR = true;
          if(_countdownBuild.Get() > 0 || health < maxHealth * 0.5)
          {
             _canFunction = false;
@@ -35,6 +34,7 @@ package
          else
          {
             _canFunction = true;
+            MAPROOM.initMaproomSetup = true;
          }
          if(MapRoomManager.instance.isInMapRoom3)
          {
@@ -61,7 +61,7 @@ package
       private function NewWorld() : void
       {
          var _loc1_:Array = null;
-         if(!MapRoomManager.instance.isInMapRoom3 && GLOBAL.mode == GLOBAL._loadmode)
+         if(!MapRoomManager.instance.isInMapRoom3 && GLOBAL.mode == GLOBAL._loadmode && GLOBAL._flags.maproom2)
          {
             ACHIEVEMENTS.Check("map2",1);
             if(this.callPending)
@@ -128,8 +128,10 @@ package
          }
          else
          {
-            LOGGER.Log("err",param1.error);
-            GLOBAL.ErrorMessage("BUILDING11 2");
+            this.callPending = true;
+            GLOBAL._flags.discordOldEnough = false;
+            //LOGGER.Log("err",param1.error);
+            //GLOBAL.ErrorMessage("BUILDING11 2");
          }
          this.callPending = false;
          PLEASEWAIT.Hide();

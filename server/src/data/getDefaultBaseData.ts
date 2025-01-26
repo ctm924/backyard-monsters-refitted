@@ -1,10 +1,15 @@
 import { devConfig } from "../config/DevSettings";
 import { User } from "../models/user.model";
-import { debugSandbox } from "../bases/debugSandbox";
-import { devSandbox } from "../bases/devSandbox";
-import { generateID } from "../utils/generateID";
+import { devSandbox } from "../dev/devSandbox";
 import { getCurrentDateTime } from "../utils/getCurrentDateTime";
+import { Reward } from "../enums/Rewards";
 
+/**
+ * Generates the default base data object for a new save.
+ *
+ * @param {User} [user] - The user for whom the base data is being generated.
+ * @returns {object} - The default base data object.
+ */
 export const getDefaultBaseData = (user?: User) => {
   // These flags allow us to work with debug dev bases
   if (devConfig.devSandbox) return devSandbox;
@@ -13,13 +18,11 @@ export const getDefaultBaseData = (user?: User) => {
   const baseid = generateID(9)
 
   return {
-    baseid: baseid.toString(10),
-    type: "main",
-    userid: generateID(8),
-    wmid: 0,
-    seed: 0,
     saveuserid: user.userid,
-    bookmarked: 0,
+    userid: user.userid,
+    cellid: -1,
+    name: user.username,
+    credits: devConfig.shiny || 1000,
     createtime: getCurrentDateTime(),
     savetime: 0, // Updates each time a save is triggered
     fan: 0,
@@ -55,26 +58,12 @@ export const getDefaultBaseData = (user?: User) => {
     error: 0,
     user,
 
-    // Objects
-    buildingdata: {},
-    buildingkeydata: {},
-    buildinghealthdata: {},
-    researchdata: {},
-    lockerdata: {},
-    aiattacks: {},
-    mushrooms: {},
-    stats: {},
-    academy: {},
-    monsterbaiter: {},
-    loot: {},
-    storedata: {},
-    coords: { x: 0, y: 0 }, // Check this
-    quests: {},
+    // Pre-populated Objects
     resources: {
-      r1: 78400,
-      r2: 78400,
-      r3: 80000,
-      r4: 80000,
+      r1: 0,
+      r2: 0,
+      r3: 0,
+      r4: 0,
       r1max: 10000,
       r2max: 10000,
       r3max: 10000,
@@ -111,43 +100,14 @@ export const getDefaultBaseData = (user?: User) => {
       r3max: 10000,
       r4max: 10000,
     },
-
-    // Arrays
-    savetemplate: [],
-    updates: [],
-    effects: [],
-    homebase: null, // ToDo: This should be randomly generated per user, within the range of the map room grid
-    outposts: null, // Dummy outposts
-    worldsize: [500, 500],
-    wmstatus: [],
-    chatservers: ["bym-chat.kixeye.com"],
-    powerups: [], // ToDo: add to DB
-    attpowerups: [], // ToDo: add to DB
-
-    // These properties do not get returned in base load, why are they here?
-    version: 128,
-    baseseed: 4520,
-    healtime: 0,
-    empirevalue: 0,
-    clienttime: 0,
-    timeplayed: 0,
-    achieved: [],
-    monsterupdate: {},
-    basename: "basename",
-    attackreport: "",
-    over: 1,
-    protect: 0,
-    attackid: 0,
-    attacks: [],
-    gifts: [],
-    sentinvites: [],
-    sentgifts: [],
-    attackcreatures: {},
-    attackloot: {},
-    lootreport: {},
-    attackerchampion: "null",
-    attackersiege: {},
-    purchasecomplete: 0,
-    fbpromos: [],
+    krallen: {},
+    rewards: devConfig.unlockAllEventRewards
+      ? {
+          // Unique event reward unlockables
+          unlockRezghul: { id: Reward.REZGHUL },
+          unblockSlimeattikus: { id: Reward.SLIMEATTIKUS },
+          unblockVorg: { id: Reward.VORG },
+        }
+      : {},
   };
 };

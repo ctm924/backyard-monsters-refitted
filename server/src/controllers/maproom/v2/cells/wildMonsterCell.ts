@@ -1,51 +1,32 @@
 import { WorldMapCell } from "../../../../models/worldmapcell.model";
-import { ORMContext } from "../../../../server";
-import { Save } from "../../../../models/save.model";
-import { generateBaseID } from "../../../../services/maproom/v2/world";
+import { Tribes } from "../../../../enums/Tribes";
+import { calculateTribeLevel } from "../../../../services/maproom/v2/calculateTribeLevel";
+import { MapRoomCell } from "../../../../enums/MapRoom";
+import { worldIdToNumber } from "../../../../utils/worldIdtoNumber";
 
-const tribes = ["Legionnaire", "Kozu", "Abunakki", "Dreadnaut"];
+export const wildMonsterCell = async (cell: WorldMapCell, worldId: string) => {
+  const [cellX, cellY] = [cell.x, cell.y];
 
-export const wildMonsterCell = async (
-  terrainType: number,
-  cell: WorldMapCell,
-  level: number = 32
-) => {
-  const tribe = (cell.x + cell.y) % tribes.length;
-  const tribeName = tribes[tribe];
+  const tribeIndex = (cellX + cellY) % Tribes.length;
+  const worldIdNumber = worldIdToNumber(worldId);
+  const tribe = Tribes[tribeIndex];
 
-  let save: Save = null;
-  if (cell.base_id !== 0) {
-    save = await ORMContext.em.findOne(Save, {
-      baseid: cell?.base_id.toString(),
-      wmid: {
-        $ne: 0,
-      },
-    });
-  }
+  // Create baseid from current worldid, cellX, and cellY
+  // TODO: Find a better way to generate baseid, this is awful.
+  const baseid = `${worldIdNumber.toString().padStart(4, "0")}${cellX
+    .toString()
+    .padStart(3, "0")}${cellY.toString().padStart(3, "0")}`;
+
+  const level = calculateTribeLevel(cell.x, cell.y, worldId, tribe);
 
   return {
-    uid: cell?.uid || 0, // ToDo: Why do we have a userId for both user and save table? Fix
-    b: 1,
-    fbid: save?.fbid,
-    pi: 0,
-    bid: generateBaseID(parseInt(cell.world_id), cell.x, cell.y),
-    aid: 0,
-    i: terrainType,
-    mine: 0,
-    f: save?.flinger || 0,
-    c: save?.catapult || 0,
-    t: 0,
-    n: tribeName,
-    fr: 0,
-    on: 0, // ToDo
-    p: 0,
-    r: save?.resources || 0,
-    m: save?.monsters || 0,
-    l: save?.level || level, // ToDo
-    d: save?.destroyed || 0,
-    lo: save?.locked || 0,
-    dm: save?.damage || 0,
-    pic_square: "",
-    im: "",
+    uid: 0,
+    b: MapRoomCell.WM,
+    i: cell.terrainHeight,
+    bid: baseid,
+    n: Tribes[tribeIndex],
+    l: level,
+    dm: cell?.save?.damage || 0,
+    d: cell?.save?.destroyed || 0,
   };
 };

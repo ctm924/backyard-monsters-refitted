@@ -2,10 +2,10 @@ import { Entity, Property, PrimaryKey, OneToOne, Index } from "@mikro-orm/core";
 import { FieldData, Save } from "./save.model";
 import { FrontendKey } from "../utils/FrontendKey";
 
-@Entity()
+@Entity({ tableName: "user" })
 export class User {
   @FrontendKey
-  @PrimaryKey()
+  @PrimaryKey({ autoincrement: true })
   userid!: number;
 
   @OneToOne(() => Save, { nullable: true })
@@ -15,9 +15,8 @@ export class User {
   @FrontendKey
   username!: string;
 
-  @Property()
-  @FrontendKey
-  last_name!: string;
+  @Property({ default: false })
+  banned?: boolean;
 
   @FrontendKey
   @Property({ unique: true })
@@ -26,6 +25,25 @@ export class User {
 
   @Property()
   password!: string;
+
+  @Property({ default: false })
+  discord_verified: boolean;
+
+  @Property({ nullable: true })
+  discord_id: string;
+
+  @Property({ nullable: true })
+  discord_tag: string;
+
+  @Property({ type: "json", nullable: true })
+  ban_report?: FieldData;
+
+  @Property({ default: "" })
+  @FrontendKey
+  last_name?: string;
+
+  @Property({ default: "" })
+  resetToken?: string;
 
   @FrontendKey
   @Property({ nullable: true })
